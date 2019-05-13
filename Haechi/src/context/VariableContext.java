@@ -15,24 +15,23 @@ public class VariableContext {
 	}
 	
 	@SuppressWarnings("unchecked")
-	public JSONArray getAllVariableINFO() {
+	public JSONArray getAllVariableInfo() {
 		Position position = new Position();
-		
-		VariableContext variableContext = new VariableContext();
-		List<VariableDeclaration> allVariableContext = variableContext.getAllVariables();
+
+		List<VariableDeclaration> variableContextList = getAllVariables();
 		
 		JSONArray variableArray;
-		JSONObject variableINFO = new JSONObject();
+		JSONObject variableInfo = new JSONObject();
 		
 		variableArray = new JSONArray();
-		for(VariableDeclaration variableDeclaration : allVariableContext) {
-			variableINFO = new JSONObject();
-			variableINFO.put("id", variableDeclaration.getId());
-			variableINFO.put("isStateVariable", variableDeclaration.getStateVariable());
-			variableINFO.put("name", variableDeclaration.getName());
-			variableINFO.put("type", variableDeclaration.getRealTypeName());
-			variableINFO.put("line", position.getLineNumber(variableDeclaration.getCharacterCount()));
-			variableArray.add(variableINFO);
+		for(VariableDeclaration variableDeclaration : variableContextList) {
+			variableInfo = new JSONObject();
+			variableInfo.put("id", variableDeclaration.getId());
+			variableInfo.put("isStateVariable", variableDeclaration.getStateVariable());
+			variableInfo.put("name", variableDeclaration.getName());
+			variableInfo.put("type", variableDeclaration.getRealTypeName());
+			variableInfo.put("line", position.getLineNumber(variableDeclaration.getCharacterCount()));
+			variableArray.add(variableInfo);
 		}
 		
 		return variableArray;

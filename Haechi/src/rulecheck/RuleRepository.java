@@ -7,14 +7,14 @@ import util.ValidationRule;
 
 public class RuleRepository {
     private List<ValidationRule> rules = new ArrayList<>();
-
+    
     public RuleRepository() {
         registerRule(new DoSAttack());
-        //registerRule(new MultipleInheritance());
-        //registerRule(new Overflow());
-        //registerRule(new Underflow());
-        //registerRule(new Reentrancy());
-        //registerRule(new TransferEther());
+        registerRule(new MultipleInheritance());
+        registerRule(new Overflow());
+        registerRule(new Underflow());
+        registerRule(new Reentrancy());
+        registerRule(new TransferEther());
         registerRule(new TxOrigin());
     }
 

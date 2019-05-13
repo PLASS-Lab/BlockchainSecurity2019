@@ -20,23 +20,23 @@ public class Printer {
 		solidityINFO = new JSONObject();
 		JSONArray jsonArray;
 		ContractContext contractContext = new ContractContext();
-		jsonArray = contractContext.getAllContractINFO();
+		jsonArray = contractContext.getAllContractInfo();
 		solidityINFO.put("ContractDefinition", jsonArray);
 		
 		VariableContext variableContext = new VariableContext();
-		jsonArray = variableContext.getAllVariableINFO();
+		jsonArray = variableContext.getAllVariableInfo();
 		solidityINFO.put("VariableDeclaration", jsonArray);
 		
 		FunctionDefinitionContext functionDefinitionContext = new FunctionDefinitionContext();
-		jsonArray = functionDefinitionContext.getAllFunctionDefinitionINFO();
+		jsonArray = functionDefinitionContext.getAllFunctionDefinitionInfo();
 		solidityINFO.put("functionDefinition", jsonArray);
 		
 		FunctionCallContext functionCallContext = new FunctionCallContext();
-		jsonArray = functionCallContext.getAllFunctionCallINFO();
+		jsonArray = functionCallContext.getAllFunctionCallInfo();
 		solidityINFO.put("functionCall", jsonArray);
 	}
 	
-	public void generate(String fileName) {
+	public void emit(String fileName) {
 		ObjectMapper mapper = new ObjectMapper();
 		try {
 			String info = "======= " + fileName + " =======" + "\r\n";

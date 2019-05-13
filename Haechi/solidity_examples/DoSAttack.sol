@@ -1,4 +1,4 @@
-pragma solidity^0.5.1;
+pragma solidity^0.4.18;
 
 contract TestLoop {
     address owner = msg.sender;
@@ -7,9 +7,10 @@ contract TestLoop {
     uint b = 3;
     uint c = 0;
 
-    function testWhile() public{
+    function testWhile(uint amount) public{
         while(i > 0) {
             require(tx.origin == owner);
+            msg.sender.transfer(amount);
             i--;
         }
     }
@@ -33,7 +34,7 @@ contract TestLoop {
         i = 10;
         do {
             i--;
-            uint a = 10;
+            a = 10;
         } while(i > 0);
     }
 }

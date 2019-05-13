@@ -19,6 +19,7 @@ public class VariableDeclaration extends AST{
 	JSONObject typeName;
 	String realTypeName;
 	JSONObject value;
+	String realValue;
 	String visibility;
 	
 	public VariableDeclaration() {
@@ -42,6 +43,22 @@ public class VariableDeclaration extends AST{
 			typeName = (JSONObject) node.get("typeName");
 			realTypeName = (String) typeName.get("name");  // Real TypeName
 			value = (JSONObject) node.get("value");
+			if(value != null) {
+				realValue = (String) value.get("value");
+//				if(realValue == null) {
+//					JSONObject leftExpr = (JSONObject) value.get("leftExpression");
+//					realValue = (String) leftExpr.get("value");
+//					if(realValue == null) {
+//						leftExpr = (JSONObject) leftExpr.get("leftExpression");
+//						realValue = (String) leftExpr.get("value");
+//					}
+//				}
+//				
+//				JSONObject rightExpr = (JSONObject) value.get("rightExpression");
+//				if(rightExpr.get("value") == null) {
+//					
+//				}
+			}
 			visibility = (String) node.get("visibility");
 		} catch (ClassCastException e) {
 			e.printStackTrace();
@@ -111,9 +128,6 @@ public class VariableDeclaration extends AST{
 		if(realTypeName == null) {
 			realTypeName = (String) typeName.get("nodeType");
 		}
-		else {
-			realTypeName = "None";
-		}
 		return realTypeName;
 	}
 	
@@ -121,7 +135,14 @@ public class VariableDeclaration extends AST{
 		return value;
 	}
 	
+	public String getRealValue() {
+		return realValue;
+	}
+	
 	public String getVisibility() {
 		return visibility;
 	}
+	
 }
+
+

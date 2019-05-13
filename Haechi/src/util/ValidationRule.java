@@ -7,8 +7,9 @@ public interface ValidationRule {
 	    CRITICAL, MAJOR, MINOR
 	}
 	
+	public abstract boolean isImplement();
 	public abstract void analyze();
-	public abstract Criticity getRuleCriticality();
+	public abstract Criticity getRuleCriticity();
     public abstract String getRuleName();
     public abstract String getComment();
     public abstract List<String> getCharacterCounts();

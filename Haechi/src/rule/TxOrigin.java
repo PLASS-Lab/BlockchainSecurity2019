@@ -11,8 +11,15 @@ public class TxOrigin implements ValidationRule{
 	List<String> characterCounts = new ArrayList<String>();
 	
 	@Override
+	public boolean isImplement() {
+		return true;
+	}
+	
+	@Override
 	public void analyze() {
-		characterCounts.clear();
+		if(!characterCounts.isEmpty()) {
+			characterCounts.clear();
+		}
 		
 		ExpressionContext expressionContext= new ExpressionContext();
 		List<Expression> txOrigins = expressionContext.getAllTxOrigins();
@@ -22,7 +29,7 @@ public class TxOrigin implements ValidationRule{
 	}
 
 	@Override
-	public Criticity getRuleCriticality() {
+	public Criticity getRuleCriticity() {
 	    return Criticity.MAJOR;
 	}
 
@@ -41,3 +48,5 @@ public class TxOrigin implements ValidationRule{
 		return characterCounts;
 	}
 }
+
+

@@ -15,23 +15,22 @@ public class FunctionCallContext {
 	}
 	
 	@SuppressWarnings("unchecked")
-	public JSONArray getAllFunctionCallINFO() {
+	public JSONArray getAllFunctionCallInfo() {
 		Position position = new Position();
-		
-		FunctionCallContext functionCallContext = new FunctionCallContext();
-		List<FunctionCall> allFunctionCallContext = functionCallContext.getAllFunctionCalls();
+
+		List<FunctionCall> functionCallContextList = getAllFunctionCalls();
 		
 		JSONArray functionCallArray;
-		JSONObject functionCallINFO = new JSONObject();
+		JSONObject functionCallInfo = new JSONObject();
 		
 		functionCallArray = new JSONArray();
-		for(FunctionCall functionCall : allFunctionCallContext) {
-			functionCallINFO = new JSONObject();
-			functionCallINFO.put("id", functionCall.getId());
-			functionCallINFO.put("caller", functionCall.getName());
-			functionCallINFO.put("name", functionCall.getMemberName());
-			functionCallINFO.put("line", position.getLineNumber(functionCall.getCharacterCount()));
-			functionCallArray.add(functionCallINFO);
+		for(FunctionCall functionCall : functionCallContextList) {
+			functionCallInfo = new JSONObject();
+			functionCallInfo.put("id", functionCall.getId());
+			functionCallInfo.put("caller", functionCall.getName());
+			functionCallInfo.put("name", functionCall.getMemberName());
+			functionCallInfo.put("line", position.getLineNumber(functionCall.getCharacterCount()));
+			functionCallArray.add(functionCallInfo);
 		}
 		
 		return functionCallArray;

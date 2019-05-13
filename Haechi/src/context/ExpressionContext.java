@@ -63,6 +63,17 @@ public class ExpressionContext {
 		return delegateCalls;
 	}
 	
+	public List<Expression> getAllOperations() {
+		List<Expression> OperationList = new ArrayList<Expression>();
+		
+		for(Expression expr : Expression.getRegistry()) {
+			if(expr.getOperator() != null) {
+				OperationList.add(expr);
+			}
+		}
+		return OperationList;
+	}
+	
 	public List<Expression> getAllTxOrigins() {
 		List<Expression> txOrigins = new ArrayList<Expression>();
 		

@@ -18,7 +18,7 @@ public class ParsingToAST {
 		}
 		return jsonObject;
 	}
-	
+
 	public void visitNode(JSONObject jsonObject) {
 		JSONArray nodes = (JSONArray) jsonObject.get("nodes"); 
 		try {

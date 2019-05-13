@@ -14,61 +14,64 @@ public class DoSAttack implements ValidationRule{
 	List<String> characterCounts = new ArrayList<String>();
 	
 	@Override
+	public boolean isImplement() {
+		return true;
+	}
+	
+	@Override
 	public void analyze() {
-		characterCounts.clear();
+		if(!characterCounts.isEmpty()) {
+			characterCounts.clear();
+		}
 		
 		FunctionCallContext functionCallContext = new FunctionCallContext();
     	List<FunctionCall> functionCalls = functionCallContext.getAllFunctionCalls();
     	
     	for(FunctionCall functionCall : functionCalls) {
-    		// Check whether require function is used.
-    		if(functionCall.getMemberName().equals("None") &&
-    				functionCall.getName().equals("require")) {	
-    			characterCounts.add(functionCall.getCharacterCount());
-    		}
-    		
     		// Check whether transfer function is used in loop statement .
-    		else {
-    			AST parent = null;
-    			String parentName = null;
-    			try {
-            		parent = functionCall.getParent();
-            		parentName = parent.getClass().getSimpleName();
-            		
-    				while(!(parentName.equals("WhileStatement") || 
-    						parentName.equals("ForStatement") ||
-    						parentName.equals("DoWhileStatement"))) {
-    					parent = parent.getParent();
-    					parentName = parent.getClass().getSimpleName(); // Exception point.
-    				}
-    				
-					JSONObject expression = functionCall.getExpression();
-					if(expression.get("memberName").equals("transfer")) {
-						expression = (JSONObject) expression.get("expression");
-						expression = (JSONObject) expression.get("expression");
-						if(expression.get("name").equals("msg") || expression.get("name").equals("tx")){
-							String count = (String) expression.get("src");
-							count = count.split(":")[0];
-							characterCounts.add(count);
-						}
-					}
+			AST parent = null;
+			String parentName = null;
+			
+    		parent = functionCall.getParent();
+    		parentName = parent.getClass().getSimpleName();
+    		
+			while(!parentName.equals("FunctionDefinition") && !parentName.equals("ModifierDefinition")) {
+				parent = parent.getParent();
+				parentName = parent.getClass().getSimpleName();
+				
+				if((parentName.equals("WhileStatement") || 
+						parentName.equals("ForStatement") ||
+						parentName.equals("DoWhileStatement"))) {
 					
-    			} catch(NullPointerException e) {
-//        			e.printStackTrace();
-    			}
-    		}
+					JSONObject expression = functionCall.getExpression();
+					try {
+						if(expression.get("memberName").equals("transfer")) {
+							expression = (JSONObject) expression.get("expression");
+							expression = (JSONObject) expression.get("expression");
+							if(expression.get("name").equals("msg") || expression.get("name").equals("tx")){
+								String count = (String) expression.get("src");
+								count = count.split(":")[0];
+								characterCounts.add(count);
+							}
+						}
+					} catch(NullPointerException e) {
+//						e.printStackTrace();
+					}
+
+					break;
+				}
+			}
     	}
-    	
 	}
 
 	@Override
-	public Criticity getRuleCriticality() {
-	    return Criticity.MAJOR;
+	public Criticity getRuleCriticity() {
+	    return Criticity.CRITICAL;
 	}
 
 	@Override
 	public String getRuleName() {
-	    return "DoSPatterns";
+	    return "DoSAttack";
 	}
 
 	@Override

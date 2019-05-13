@@ -16,24 +16,23 @@ public class FunctionDefinitionContext {
 	}
 	
 	@SuppressWarnings("unchecked")
-	public JSONArray getAllFunctionDefinitionINFO() {
+	public JSONArray getAllFunctionDefinitionInfo() {
 		Position position = new Position();
 		
-		FunctionDefinitionContext functionDefinitionContext = new FunctionDefinitionContext();
-		List<FunctionDefinition> allFunctionDefinitionContext = functionDefinitionContext.getAllFunctionDefinitions();
+		List<FunctionDefinition> functionDefinitionContextList = getAllFunctionDefinitions();
 		
 		JSONArray functionDefinitionArray;
-		JSONObject functionDefinitionINFO = new JSONObject();
+		JSONObject functionDefinitionInfo = new JSONObject();
 		
 		functionDefinitionArray = new JSONArray();
-		for(FunctionDefinition functionDefinition : allFunctionDefinitionContext) {
-			functionDefinitionINFO = new JSONObject();
-			functionDefinitionINFO.put("id", functionDefinition.getId());
-			functionDefinitionINFO.put("kind", functionDefinition.getKind());
-			functionDefinitionINFO.put("name", functionDefinition.getName());
-			functionDefinitionINFO.put("visibility", functionDefinition.getVisibility());
-			functionDefinitionINFO.put("line", position.getLineNumber(functionDefinition.getCharacterCount()));
-			functionDefinitionArray.add(functionDefinitionINFO);
+		for(FunctionDefinition functionDefinition : functionDefinitionContextList) {
+			functionDefinitionInfo = new JSONObject();
+			functionDefinitionInfo.put("id", functionDefinition.getId());
+//			functionDefinitionINFO.put("kind", functionDefinition.getKind()); // ver. 0.5.1
+			functionDefinitionInfo.put("name", functionDefinition.getName());
+			functionDefinitionInfo.put("visibility", functionDefinition.getVisibility());
+			functionDefinitionInfo.put("line", position.getLineNumber(functionDefinition.getCharacterCount()));
+			functionDefinitionArray.add(functionDefinitionInfo);
 		}
 		
 		return functionDefinitionArray;

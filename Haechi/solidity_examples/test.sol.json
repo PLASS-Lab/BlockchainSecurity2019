@@ -1,0 +1,7133 @@
+======= test.sol =======
+{
+	"ContractDefinition" : [ {
+		"kind" : "contract",
+		"line" : 3,
+		"name" : "Mallory",
+		"id" : 66
+	}, {
+		"kind" : "contract",
+		"line" : 27,
+		"name" : "SimpleDAO",
+		"id" : 98
+	}, {
+		"kind" : "contract",
+		"line" : 40,
+		"name" : "testContract",
+		"id" : 110
+	}, {
+		"kind" : "contract",
+		"line" : 47,
+		"name" : "TxOriginContract",
+		"id" : 184
+	}, {
+		"kind" : "contract",
+		"line" : 68,
+		"name" : "ownedContract",
+		"id" : 195
+	}, {
+		"kind" : "contract",
+		"line" : 75,
+		"name" : "BaseNo1",
+		"id" : 218
+	}, {
+		"kind" : "contract",
+		"line" : 84,
+		"name" : "BaseNo2",
+		"id" : 249
+	}, {
+		"kind" : "contract",
+		"line" : 97,
+		"name" : "Final",
+		"id" : 279
+	}, {
+		"kind" : "contract",
+		"line" : 108,
+		"name" : "Empty",
+		"id" : 282
+	}, {
+		"kind" : "contract",
+		"line" : 112,
+		"name" : "Temp",
+		"id" : 305
+	}, {
+		"kind" : "contract",
+		"line" : 124,
+		"name" : "Test",
+		"id" : 319
+	}, {
+		"kind" : "contract",
+		"line" : 130,
+		"name" : "TestLoop",
+		"id" : 450
+	}, {
+		"kind" : "contract",
+		"line" : 168,
+		"name" : "ArrayDelete",
+		"id" : 498
+	}, {
+		"kind" : "contract",
+		"line" : 185,
+		"name" : "MyContract",
+		"id" : 528
+	}, {
+		"kind" : "contract",
+		"line" : 198,
+		"name" : "AAAA",
+		"id" : 606
+	}, {
+		"kind" : "contract",
+		"line" : 222,
+		"name" : "A",
+		"id" : 641
+	}, {
+		"kind" : "contract",
+		"line" : 239,
+		"name" : "B",
+		"id" : 665
+	}, {
+		"kind" : "contract",
+		"line" : 255,
+		"name" : "Manager",
+		"id" : 689
+	}, {
+		"kind" : "contract",
+		"line" : 264,
+		"name" : "BasicToken",
+		"id" : 727
+	}, {
+		"kind" : "contract",
+		"line" : 328,
+		"name" : "ContractTrapped",
+		"id" : 758
+	}, {
+		"kind" : "contract",
+		"line" : 339,
+		"name" : "One",
+		"id" : 771
+	}, {
+		"kind" : "contract",
+		"line" : 347,
+		"name" : "Two",
+		"id" : 782
+	}, {
+		"kind" : "contract",
+		"line" : 354,
+		"name" : "ReentryProtectorMixin",
+		"id" : 805
+	}, {
+		"kind" : "contract",
+		"line" : 384,
+		"name" : "CarefulSenderMixin",
+		"id" : 831
+	}, {
+		"kind" : "contract",
+		"line" : 457,
+		"name" : "FundsHolderMixin",
+		"id" : 975
+	}, {
+		"kind" : "contract",
+		"line" : 537,
+		"name" : "MoneyRounderMixin",
+		"id" : 1095
+	}, {
+		"kind" : "contract",
+		"line" : 583,
+		"name" : "NameableMixin",
+		"id" : 1446
+	}, {
+		"kind" : "contract",
+		"line" : 749,
+		"name" : "ThroneRulesMixin",
+		"id" : 1458
+	}, {
+		"kind" : "contract",
+		"line" : 764,
+		"name" : "Kingdom",
+		"id" : 2102
+	}, {
+		"kind" : "contract",
+		"line" : 1135,
+		"name" : "KingdomFactory",
+		"id" : 2269
+	}, {
+		"kind" : "contract",
+		"line" : 1239,
+		"name" : "World",
+		"id" : 2793
+	}, {
+		"kind" : "contract",
+		"line" : 1572,
+		"name" : "ExposedInternalsForTesting",
+		"id" : 2858
+	}, {
+		"kind" : "contract",
+		"line" : 1602,
+		"name" : "AFAFAF",
+		"id" : 3068
+	}, {
+		"kind" : "contract",
+		"line" : 1670,
+		"name" : "Proposal",
+		"id" : 3130
+	}, {
+		"kind" : "contract",
+		"line" : 1693,
+		"name" : "MiniDAO",
+		"id" : 3179
+	}, {
+		"kind" : "contract",
+		"line" : 1707,
+		"name" : "Attacker",
+		"id" : 3233
+	}, {
+		"kind" : "contract",
+		"line" : 1731,
+		"name" : "Sha3",
+		"id" : 3470
+	}, {
+		"kind" : "contract",
+		"line" : 1803,
+		"name" : "Ballot",
+		"id" : 3764
+	}, {
+		"kind" : "library",
+		"line" : 1948,
+		"name" : "SafeMath",
+		"id" : 3860
+	}, {
+		"kind" : "contract",
+		"line" : 1985,
+		"name" : "Visibility",
+		"id" : 3957
+	}, {
+		"kind" : "contract",
+		"line" : 2012,
+		"name" : "childOfAddOne",
+		"id" : 3960
+	}, {
+		"kind" : "contract",
+		"line" : 2014,
+		"name" : "anotherOne",
+		"id" : 3961
+	}, {
+		"kind" : "contract",
+		"line" : 2019,
+		"name" : "Migrations",
+		"id" : 4016
+	}, {
+		"kind" : "contract",
+		"line" : 2046,
+		"name" : "GetAndSet",
+		"id" : 4047
+	}, {
+		"kind" : "contract",
+		"line" : 2061,
+		"name" : "GetAndSet2",
+		"id" : 4117
+	}, {
+		"kind" : "contract",
+		"line" : 2078,
+		"name" : "SimpleSocialNetwork",
+		"id" : 4258
+	}, {
+		"kind" : "contract",
+		"line" : 2115,
+		"name" : "tokenRecipient",
+		"id" : 4270
+	}, {
+		"kind" : "contract",
+		"line" : 2117,
+		"name" : "MyToken",
+		"id" : 4513
+	}, {
+		"kind" : "contract",
+		"line" : 2201,
+		"name" : "Account",
+		"id" : 4564
+	}, {
+		"kind" : "contract",
+		"line" : 2215,
+		"name" : "Factory",
+		"id" : 4588
+	}, {
+		"kind" : "contract",
+		"line" : 2245,
+		"name" : "OraclizeI",
+		"id" : 4680
+	}, {
+		"kind" : "contract",
+		"line" : 2270,
+		"name" : "OraclizeAddrResolverI",
+		"id" : 4686
+	}, {
+		"kind" : "contract",
+		"line" : 2271,
+		"name" : "usingOraclize",
+		"id" : 6127
+	}, {
+		"kind" : "contract",
+		"line" : 2537,
+		"name" : "DieselPrice",
+		"id" : 6186
+	}, {
+		"kind" : "contract",
+		"line" : 2564,
+		"name" : "KrakenPriceTicker",
+		"id" : 6268
+	}, {
+		"kind" : "contract",
+		"line" : 2593,
+		"name" : "swarmExample",
+		"id" : 6324
+	}, {
+		"kind" : "contract",
+		"line" : 2621,
+		"name" : "WolframAlpha",
+		"id" : 6380
+	}, {
+		"kind" : "contract",
+		"line" : 2643,
+		"name" : "YoutubeViews",
+		"id" : 6436
+	}, {
+		"kind" : "contract",
+		"line" : 2679,
+		"name" : "DSAuthority",
+		"id" : 6448
+	}, {
+		"kind" : "contract",
+		"line" : 2685,
+		"name" : "DSAuthEvents",
+		"id" : 6457
+	}, {
+		"kind" : "contract",
+		"line" : 2689,
+		"name" : "DSAuth",
+		"id" : 6571
+	}, {
+		"kind" : "contract",
+		"line" : 2733,
+		"name" : "VisitCounter",
+		"id" : 6675
+	}, {
+		"kind" : "contract",
+		"line" : 2773,
+		"name" : "Auction",
+		"id" : 7100
+	}, {
+		"kind" : "contract",
+		"line" : 2974,
+		"name" : "AuctionFactory",
+		"id" : 7167
+	}, {
+		"kind" : "contract",
+		"line" : 2996,
+		"name" : "SampleContract",
+		"id" : 10487
+	}, {
+		"kind" : "contract",
+		"line" : 3954,
+		"name" : "ERC20Basic",
+		"id" : 10517
+	}, {
+		"kind" : "contract",
+		"line" : 3963,
+		"name" : "ERC20",
+		"id" : 10557
+	}, {
+		"kind" : "contract",
+		"line" : 3977,
+		"name" : "MultiSender",
+		"id" : 10925
+	}, {
+		"kind" : "contract",
+		"line" : 4068,
+		"name" : "EternalStorage",
+		"id" : 10950
+	}, {
+		"kind" : "contract",
+		"line" : 4080,
+		"name" : "Proxy",
+		"id" : 10979
+	}, {
+		"kind" : "contract",
+		"line" : 4116,
+		"name" : "UpgradeabilityOwnerStorage",
+		"id" : 11000
+	}, {
+		"kind" : "contract",
+		"line" : 4126,
+		"name" : "Token",
+		"id" : 11064
+	}, {
+		"kind" : "contract",
+		"line" : 4176,
+		"name" : "Owned",
+		"id" : 11138
+	}, {
+		"kind" : "contract",
+		"line" : 4207,
+		"name" : "Controlled",
+		"id" : 11279
+	}, {
+		"kind" : "contract",
+		"line" : 4249,
+		"name" : "StandardToken",
+		"id" : 11480
+	}, {
+		"kind" : "contract",
+		"line" : 4295,
+		"name" : "SMT",
+		"id" : 11903
+	}, {
+		"kind" : "contract",
+		"line" : 4422,
+		"name" : "SimpleAuction",
+		"id" : 12071
+	}, {
+		"kind" : "contract",
+		"line" : 4549,
+		"name" : "BlindAuction",
+		"id" : 12416
+	}, {
+		"kind" : "contract",
+		"line" : 4688,
+		"name" : "ReceiverPays",
+		"id" : 12568
+	}, {
+		"kind" : "contract",
+		"line" : 4749,
+		"name" : "SimplePaymentChannel",
+		"id" : 12764
+	}, {
+		"kind" : "contract",
+		"line" : 4842,
+		"name" : "StateHolder",
+		"id" : 12820
+	}, {
+		"kind" : "contract",
+		"line" : 4855,
+		"name" : "Insecure",
+		"id" : 13020
+	} ],
+	"functionDefinition" : [ {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 8,
+		"name" : "func",
+		"id" : 18
+	}, {
+		"visibility" : "external",
+		"kind" : null,
+		"line" : 11,
+		"name" : "None",
+		"id" : 27
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 14,
+		"name" : "testFunc",
+		"id" : 44
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 19,
+		"name" : "notitle",
+		"id" : 53
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 22,
+		"name" : "getBalance",
+		"id" : 65
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 31,
+		"name" : "withdraw",
+		"id" : 97
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 42,
+		"name" : "testFunc2",
+		"id" : 109
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 51,
+		"name" : "None",
+		"id" : 123
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 55,
+		"name" : "send",
+		"id" : 153
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 61,
+		"name" : "transfer",
+		"id" : 183
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 70,
+		"name" : "get",
+		"id" : 194
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 76,
+		"name" : "set",
+		"id" : 205
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 79,
+		"name" : "set",
+		"id" : 217
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 85,
+		"name" : "set",
+		"id" : 228
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 89,
+		"name" : "set",
+		"id" : 240
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 92,
+		"name" : "set2",
+		"id" : 248
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 98,
+		"name" : "set",
+		"id" : 261
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 101,
+		"name" : "func",
+		"id" : 278
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 115,
+		"name" : "set",
+		"id" : 296
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 119,
+		"name" : "set",
+		"id" : 304
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 125,
+		"name" : "test",
+		"id" : 318
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 137,
+		"name" : "testWhile",
+		"id" : 354
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 144,
+		"name" : "testForStatement",
+		"id" : 429
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 159,
+		"name" : "testDoWhile",
+		"id" : 449
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 171,
+		"name" : "main",
+		"id" : 497
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 188,
+		"name" : "MyContract",
+		"id" : 517
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 193,
+		"name" : "bar",
+		"id" : 527
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 200,
+		"name" : "A",
+		"id" : 559
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 206,
+		"name" : "get",
+		"id" : 568
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 212,
+		"name" : "transfer",
+		"id" : 593
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 217,
+		"name" : "balanceOf",
+		"id" : 605
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 226,
+		"name" : "A",
+		"id" : 631
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 233,
+		"name" : "foo",
+		"id" : 640
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 243,
+		"name" : "B",
+		"id" : 653
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 250,
+		"name" : "bar",
+		"id" : 664
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 256,
+		"name" : "makeA",
+		"id" : 688
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 296,
+		"name" : "transfer",
+		"id" : 714
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 320,
+		"name" : "balanceOf",
+		"id" : 726
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 329,
+		"name" : "foo",
+		"id" : 757
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 342,
+		"name" : "setMsg",
+		"id" : 770
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 348,
+		"name" : "Two",
+		"id" : 781
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 367,
+		"name" : "externalEnter",
+		"id" : 796
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 376,
+		"name" : "externalLeave",
+		"id" : 804
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 445,
+		"name" : "carefulSendWithFixedGas",
+		"id" : 830
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 471,
+		"name" : "fundsOf",
+		"id" : 859
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 476,
+		"name" : "withdrawFunds",
+		"id" : 872
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 485,
+		"name" : "withdrawFundsAdvanced",
+		"id" : 894
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 496,
+		"name" : "withdrawFundsRP",
+		"id" : 919
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 509,
+		"name" : "withdrawFundsAdvancedRP",
+		"id" : 974
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 547,
+		"name" : "roundMoneyDownNicely",
+		"id" : 1077
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 574,
+		"name" : "roundMoneyUpToWholeFinney",
+		"id" : 1094
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 605,
+		"name" : "validateNameInternal",
+		"id" : 1223
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 821,
+		"name" : "Kingdom",
+		"id" : 1582
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 856,
+		"name" : "numberOfMonarchs",
+		"id" : 1593
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 863,
+		"name" : "isLivingMonarch",
+		"id" : 1637
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 883,
+		"name" : "currentClaimPriceWei",
+		"id" : 1701
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 903,
+		"name" : "currentClaimPriceInFinney",
+		"id" : 1716
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 917,
+		"name" : "validateProposedMonarchName",
+		"id" : 1728
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 929,
+		"name" : "latestMonarchInternal",
+		"id" : 1741
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 951,
+		"name" : "None",
+		"id" : 1754
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 971,
+		"name" : "claimThrone",
+		"id" : 1770
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 983,
+		"name" : "replaceWizard",
+		"id" : 1786
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 989,
+		"name" : "fallbackRP",
+		"id" : 1813
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 998,
+		"name" : "claimThroneRP",
+		"id" : 1944
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1137,
+		"name" : "KingdomFactory",
+		"id" : 2106
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1140,
+		"name" : "None",
+		"id" : 2111
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1146,
+		"name" : "validateProposedThroneRules",
+		"id" : 2193
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1191,
+		"name" : "createKingdom",
+		"id" : 2268
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1289,
+		"name" : "World",
+		"id" : 2378
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1310,
+		"name" : "numberOfKingdoms",
+		"id" : 2389
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1315,
+		"name" : "findKingdomCalled",
+		"id" : 2407
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1332,
+		"name" : "validateProposedKingdomName",
+		"id" : 2419
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1339,
+		"name" : "validateProposedThroneRules",
+		"id" : 2442
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1356,
+		"name" : "kingdomCreationFeeInFinney",
+		"id" : 2452
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1363,
+		"name" : "None",
+		"id" : 2457
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1399,
+		"name" : "createKingdom",
+		"id" : 2485
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1423,
+		"name" : "replaceWizard",
+		"id" : 2501
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1430,
+		"name" : "setKingdomCreationFeeWei",
+		"id" : 2517
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1437,
+		"name" : "setMaximumClaimPriceWei",
+		"id" : 2533
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1445,
+		"name" : "setKingdomFactory",
+		"id" : 2549
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 1451,
+		"name" : "createKingdomRP",
+		"id" : 2645
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 1506,
+		"name" : "replaceWizardRP",
+		"id" : 2678
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 1518,
+		"name" : "setKingdomCreationFeeWeiRP",
+		"id" : 2706
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 1529,
+		"name" : "setMaximumClaimPriceWeiRP",
+		"id" : 2736
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 1542,
+		"name" : "setKingdomFactoryRP",
+		"id" : 2764
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 1557,
+		"name" : "checkUniqueAndRegisterNewKingdomName",
+		"id" : 2792
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1575,
+		"name" : "roundMoneyDownNicelyET",
+		"id" : 2809
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1580,
+		"name" : "roundMoneyUpToWholeFinneyET",
+		"id" : 2821
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1585,
+		"name" : "validateNameInternalET",
+		"id" : 2833
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1590,
+		"name" : "extractNameFromDataET",
+		"id" : 2845
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1595,
+		"name" : "computeNameFuzzyHashET",
+		"id" : 2857
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1623,
+		"name" : "f",
+		"id" : 2911
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1624,
+		"name" : "g",
+		"id" : 2921
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1625,
+		"name" : "refund",
+		"id" : 2935
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1631,
+		"name" : "Contract",
+		"id" : 2942
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1634,
+		"name" : "find",
+		"id" : 2966
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1642,
+		"name" : "removeByValue",
+		"id" : 2982
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1647,
+		"name" : "removeByIndex",
+		"id" : 3014
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1655,
+		"name" : "getValues",
+		"id" : 3023
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1659,
+		"name" : "test",
+		"id" : 3067
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1677,
+		"name" : "Proposal",
+		"id" : 3101
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1683,
+		"name" : "approve",
+		"id" : 3119
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1688,
+		"name" : "isApproved",
+		"id" : 3129
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1696,
+		"name" : "deposit",
+		"id" : 3146
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1700,
+		"name" : "withdraw",
+		"id" : 3178
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1715,
+		"name" : "Attacker",
+		"id" : 3206
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1720,
+		"name" : "attack",
+		"id" : 3216
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1724,
+		"name" : "None",
+		"id" : 3232
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1732,
+		"name" : "hashArray",
+		"id" : 3285
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1742,
+		"name" : "hashPackedArray",
+		"id" : 3322
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1751,
+		"name" : "hashAddress",
+		"id" : 3338
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1757,
+		"name" : "testPackedArgs",
+		"id" : 3353
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1761,
+		"name" : "hashHex",
+		"id" : 3363
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1766,
+		"name" : "hashInt",
+		"id" : 3375
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1770,
+		"name" : "hashNegative",
+		"id" : 3388
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1774,
+		"name" : "hash8",
+		"id" : 3398
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1778,
+		"name" : "hash32",
+		"id" : 3410
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1782,
+		"name" : "hash256",
+		"id" : 3422
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1786,
+		"name" : "hashEth",
+		"id" : 3434
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1790,
+		"name" : "hashWei",
+		"id" : 3446
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1794,
+		"name" : "hashMultipleArgs",
+		"id" : 3459
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1798,
+		"name" : "hashString",
+		"id" : 3469
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1829,
+		"name" : "Ballot",
+		"id" : 3536
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1847,
+		"name" : "giveRightToVote",
+		"id" : 3575
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1869,
+		"name" : "delegate",
+		"id" : 3667
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1908,
+		"name" : "vote",
+		"id" : 3707
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1928,
+		"name" : "winningProposal",
+		"id" : 3749
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1942,
+		"name" : "winnerName",
+		"id" : 3763
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 1950,
+		"name" : "mul",
+		"id" : 3797
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 1959,
+		"name" : "div",
+		"id" : 3815
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 1974,
+		"name" : "sub",
+		"id" : 3835
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 1977,
+		"name" : "add",
+		"id" : 3859
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1990,
+		"name" : "getData",
+		"id" : 3878
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1993,
+		"name" : "doIt",
+		"id" : 3890
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 1998,
+		"name" : "keepIt",
+		"id" : 3904
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2001,
+		"name" : "assignv",
+		"id" : 3918
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2002,
+		"name" : "readv",
+		"id" : 3930
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2006,
+		"name" : "assign",
+		"id" : 3944
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2007,
+		"name" : "read",
+		"id" : 3956
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2026,
+		"name" : "None",
+		"id" : 3974
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2030,
+		"name" : "setCompleted",
+		"id" : 3995
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2035,
+		"name" : "upgrade",
+		"id" : 4015
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2049,
+		"name" : "setStoredData",
+		"id" : 4034
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2055,
+		"name" : "getStoredData",
+		"id" : 4046
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2063,
+		"name" : "setStoredData",
+		"id" : 4073
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2068,
+		"name" : "getStoredData",
+		"id" : 4091
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2071,
+		"name" : "getOwner",
+		"id" : 4099
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2074,
+		"name" : "None",
+		"id" : 4108
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2077,
+		"name" : "goodbye",
+		"id" : 4116
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2091,
+		"name" : "None",
+		"id" : 4164
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2097,
+		"name" : "hasPosts",
+		"id" : 4177
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2099,
+		"name" : "newPost",
+		"id" : 4213
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2109,
+		"name" : "newComment",
+		"id" : 4257
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2115,
+		"name" : "receiveApproval",
+		"id" : 4269
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2129,
+		"name" : "MyToken",
+		"id" : 4345
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2143,
+		"name" : "transfer",
+		"id" : 4392
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2155,
+		"name" : "approveAndCall",
+		"id" : 4431
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2161,
+		"name" : "transferFrom",
+		"id" : 4507
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2196,
+		"name" : "None",
+		"id" : 4512
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2207,
+		"name" : "None",
+		"id" : 4525
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2209,
+		"name" : "setOwner",
+		"id" : 4542
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2213,
+		"name" : "destroy",
+		"id" : 4559
+	}, {
+		"visibility" : "external",
+		"kind" : null,
+		"line" : 2214,
+		"name" : "None",
+		"id" : 4563
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2216,
+		"name" : "deploy",
+		"id" : 4587
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2246,
+		"name" : "query",
+		"id" : 4602
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2248,
+		"name" : "query_withGasLimit",
+		"id" : 4615
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2254,
+		"name" : "query2",
+		"id" : 4628
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2257,
+		"name" : "query2_withGasLimit",
+		"id" : 4643
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2260,
+		"name" : "getPrice",
+		"id" : 4650
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2262,
+		"name" : "getPrice",
+		"id" : 4659
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2264,
+		"name" : "useCoupon",
+		"id" : 4664
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2264,
+		"name" : "setProofType",
+		"id" : 4669
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2268,
+		"name" : "setConfig",
+		"id" : 4674
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2269,
+		"name" : "setCustomGasPrice",
+		"id" : 4679
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2270,
+		"name" : "getAddress",
+		"id" : 4685
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2546,
+		"name" : "DieselPrice",
+		"id" : 6146
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2549,
+		"name" : "__callback",
+		"id" : 6172
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2557,
+		"name" : "update",
+		"id" : 6185
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2567,
+		"name" : "KrakenPriceTicker",
+		"id" : 6211
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2573,
+		"name" : "__callback",
+		"id" : 6239
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2584,
+		"name" : "update",
+		"id" : 6267
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2603,
+		"name" : "swarmExample",
+		"id" : 6287
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2606,
+		"name" : "__callback",
+		"id" : 6310
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2613,
+		"name" : "update",
+		"id" : 6323
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2630,
+		"name" : "WolframAlpha",
+		"id" : 6343
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2634,
+		"name" : "__callback",
+		"id" : 6366
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2638,
+		"name" : "update",
+		"id" : 6379
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2650,
+		"name" : "YoutubeViews",
+		"id" : 6399
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2654,
+		"name" : "__callback",
+		"id" : 6422
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2665,
+		"name" : "update",
+		"id" : 6435
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2680,
+		"name" : "canCall",
+		"id" : 6447
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2692,
+		"name" : "None",
+		"id" : 6477
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2695,
+		"name" : "setOwner",
+		"id" : 6493
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2702,
+		"name" : "setAuthority",
+		"id" : 6511
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 2719,
+		"name" : "isAuthorized",
+		"id" : 6570
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2739,
+		"name" : "VisitCounter",
+		"id" : 6593
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2740,
+		"name" : "visit",
+		"id" : 6657
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2798,
+		"name" : "Auction",
+		"id" : 6769
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2808,
+		"name" : "getHighestBid",
+		"id" : 6779
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2811,
+		"name" : "placeBid",
+		"id" : 6877
+	}, {
+		"visibility" : "private",
+		"kind" : null,
+		"line" : 2873,
+		"name" : "min",
+		"id" : 6895
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2878,
+		"name" : "cancelAuction",
+		"id" : 6916
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2881,
+		"name" : "withdraw",
+		"id" : 7039
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2984,
+		"name" : "AuctionFactory",
+		"id" : 7118
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2985,
+		"name" : "createAuction",
+		"id" : 7157
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 2995,
+		"name" : "allAuctions",
+		"id" : 7166
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 3005,
+		"name" : "SampleContract",
+		"id" : 7197
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 3006,
+		"name" : "boolFunctionReturnsBool",
+		"id" : 7210
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 3011,
+		"name" : "boolFunctionReturnsInt",
+		"id" : 7227
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 3015,
+		"name" : "boolFunctionReturnsInt8",
+		"id" : 7244
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 3020,
+		"name" : "boolFunctionReturnsInt256",
+		"id" : 7261
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 3025,
+		"name" : "boolFunctionReturnsUint",
+		"id" : 7278
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 3028,
+		"name" : "boolFunctionReturnsUint8",
+		"id" : 7295
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 3033,
+		"name" : "boolFunctionReturnsUint256",
+		"id" : 7312
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 3038,
+		"name" : "boolFunctionReturnsAddress",
+		"id" : 7329
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 3045,
+		"name" : "boolFunctionReturnsByte",
+		"id" : 7346
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 3048,
+		"name" : "boolFunctionReturnsBytes1",
+		"id" : 7363
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 3051,
+		"name" : "boolFunctionReturnsBytes32",
+		"id" : 7380
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 3058,
+		"name" : "boolFunctionReturnsBytes",
+		"id" : 7397
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 3065,
+		"name" : "boolFunctionReturnsString",
+		"id" : 7414
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 3070,
+		"name" : "boolUint256FunctionReturnsBoolUint256",
+		"id" : 7440
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 3955,
+		"name" : "totalSupply",
+		"id" : 10492
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 3957,
+		"name" : "balanceOf",
+		"id" : 10499
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 3959,
+		"name" : "transfer",
+		"id" : 10508
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 3963,
+		"name" : "allowance",
+		"id" : 10528
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 3966,
+		"name" : "transferFrom",
+		"id" : 10539
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 3971,
+		"name" : "approve",
+		"id" : 10548
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 3997,
+		"name" : "MultiSender",
+		"id" : 10631
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4002,
+		"name" : "None",
+		"id" : 10635
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4005,
+		"name" : "discountRate",
+		"id" : 10653
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4009,
+		"name" : "currentFee",
+		"id" : 10667
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4011,
+		"name" : "claimOwner",
+		"id" : 10688
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4016,
+		"name" : "changeTreshold",
+		"id" : 10700
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4018,
+		"name" : "changeFee",
+		"id" : 10712
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4023,
+		"name" : "changeDiscountStep",
+		"id" : 10724
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4024,
+		"name" : "multisendToken",
+		"id" : 10811
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4041,
+		"name" : "multisendEther",
+		"id" : 10877
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4055,
+		"name" : "claimTokens",
+		"id" : 10924
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4087,
+		"name" : "None",
+		"id" : 10973
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4113,
+		"name" : "implementation",
+		"id" : 10978
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4120,
+		"name" : "upgradeabilityOwner",
+		"id" : 10989
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 4123,
+		"name" : "setUpgradeabilityOwner",
+		"id" : 10999
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4130,
+		"name" : "balanceOf",
+		"id" : 11009
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4135,
+		"name" : "transfer",
+		"id" : 11018
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4142,
+		"name" : "transferFrom",
+		"id" : 11029
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4153,
+		"name" : "approve",
+		"id" : 11038
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4166,
+		"name" : "allowance",
+		"id" : 11047
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4189,
+		"name" : "Owned",
+		"id" : 11086
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4195,
+		"name" : "changeOwner",
+		"id" : 11113
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4201,
+		"name" : "acceptOwnership",
+		"id" : 11137
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4208,
+		"name" : "Controlled",
+		"id" : 11149
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4222,
+		"name" : "enableTransfer",
+		"id" : 11175
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4224,
+		"name" : "disableLock",
+		"id" : 11191
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4235,
+		"name" : "addLock",
+		"id" : 11216
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4238,
+		"name" : "setExclude",
+		"id" : 11234
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4239,
+		"name" : "removeLock",
+		"id" : 11252
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4249,
+		"name" : "transfer",
+		"id" : 11340
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4261,
+		"name" : "transferFrom",
+		"id" : 11413
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4284,
+		"name" : "balanceOf",
+		"id" : 11425
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4285,
+		"name" : "approve",
+		"id" : 11453
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4287,
+		"name" : "allowance",
+		"id" : 11469
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4296,
+		"name" : "None",
+		"id" : 11489
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4315,
+		"name" : "SMT",
+		"id" : 11517
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4326,
+		"name" : "transferProxy",
+		"id" : 11648
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4363,
+		"name" : "approveProxy",
+		"id" : 11717
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4369,
+		"name" : "getNonce",
+		"id" : 11729
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4370,
+		"name" : "approveAndCall",
+		"id" : 11780
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4392,
+		"name" : "approveAndCallcode",
+		"id" : 11820
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4406,
+		"name" : "allocateTokens",
+		"id" : 11902
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4454,
+		"name" : "None",
+		"id" : 11947
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4467,
+		"name" : "bid",
+		"id" : 11994
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4498,
+		"name" : "withdraw",
+		"id" : 12038
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4509,
+		"name" : "auctionEnd",
+		"id" : 12070
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4570,
+		"name" : "None",
+		"id" : 12153
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4597,
+		"name" : "bid",
+		"id" : 12174
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4605,
+		"name" : "reveal",
+		"id" : 12317
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 4645,
+		"name" : "placeBid",
+		"id" : 12357
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4661,
+		"name" : "withdraw",
+		"id" : 12388
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4679,
+		"name" : "auctionEnd",
+		"id" : 12415
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4693,
+		"name" : "None",
+		"id" : 12428
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4694,
+		"name" : "claimPayment",
+		"id" : 12483
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4712,
+		"name" : "kill",
+		"id" : 12499
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 4719,
+		"name" : "splitSignature",
+		"id" : 12524
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4755,
+		"name" : "None",
+		"id" : 12597
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 4758,
+		"name" : "isValidSignature",
+		"id" : 12626
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4776,
+		"name" : "close",
+		"id" : 12658
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4787,
+		"name" : "extend",
+		"id" : 12681
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4796,
+		"name" : "claimTimeout",
+		"id" : 12695
+	}, {
+		"visibility" : "internal",
+		"kind" : null,
+		"line" : 4808,
+		"name" : "splitSignature",
+		"id" : 12720
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4846,
+		"name" : "getLock",
+		"id" : 12785
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4849,
+		"name" : "releaseLock",
+		"id" : 12802
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4851,
+		"name" : "set",
+		"id" : 12819
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4855,
+		"name" : "withdrawBalance",
+		"id" : 12848
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4864,
+		"name" : "withdrawReward",
+		"id" : 12887
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4870,
+		"name" : "getFirstWithdrawalBonus",
+		"id" : 12916
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4883,
+		"name" : "untrustedWithdrawReward",
+		"id" : 12943
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : 4891,
+		"name" : "untrustedGetFirstWithdrawalBonus",
+		"id" : 12972
+	}, {
+		"visibility" : "public",
+		"kind" : null,
+		"line" : -1,
+		"name" : "payOut",
+		"id" : 13019
+	} ],
+	"functionCall" : [ {
+		"caller" : "dao",
+		"line" : 9,
+		"name" : "withdraw",
+		"id" : 15
+	}, {
+		"caller" : "dao",
+		"line" : 12,
+		"name" : "withdraw",
+		"id" : 24
+	}, {
+		"caller" : "dao",
+		"line" : 15,
+		"name" : "withdraw",
+		"id" : 33
+	}, {
+		"caller" : "func",
+		"line" : 16,
+		"name" : "None",
+		"id" : 36
+	}, {
+		"caller" : "test",
+		"line" : 17,
+		"name" : "testFunc2",
+		"id" : 41
+	}, {
+		"caller" : "dao",
+		"line" : 20,
+		"name" : "withdraw",
+		"id" : 50
+	}, {
+		"caller" : "mallory",
+		"line" : 34,
+		"name" : "testFunc",
+		"id" : 84
+	}, {
+		"caller" : "mal",
+		"line" : 35,
+		"name" : "func",
+		"id" : 89
+	}, {
+		"caller" : "simple",
+		"line" : 43,
+		"name" : "withdraw",
+		"id" : 106
+	}, {
+		"caller" : null,
+		"line" : 56,
+		"name" : "send",
+		"id" : 135
+	}, {
+		"caller" : "require",
+		"line" : 57,
+		"name" : "None",
+		"id" : 142
+	}, {
+		"caller" : null,
+		"line" : 58,
+		"name" : "send",
+		"id" : 150
+	}, {
+		"caller" : null,
+		"line" : 62,
+		"name" : "transfer",
+		"id" : 164
+	}, {
+		"caller" : "require",
+		"line" : 63,
+		"name" : "None",
+		"id" : 171
+	}, {
+		"caller" : null,
+		"line" : 64,
+		"name" : "send",
+		"id" : 180
+	}, {
+		"caller" : "set",
+		"line" : 102,
+		"name" : "None",
+		"id" : 265
+	}, {
+		"caller" : "set",
+		"line" : 103,
+		"name" : "None",
+		"id" : 270
+	}, {
+		"caller" : "super",
+		"line" : 104,
+		"name" : "set",
+		"id" : 275
+	}, {
+		"caller" : "set",
+		"line" : 126,
+		"name" : "None",
+		"id" : 315
+	}, {
+		"caller" : "require",
+		"line" : 139,
+		"name" : "None",
+		"id" : 346
+	}, {
+		"caller" : "require",
+		"line" : 145,
+		"name" : "None",
+		"id" : 364
+	}, {
+		"caller" : null,
+		"line" : 150,
+		"name" : "send",
+		"id" : 398
+	}, {
+		"caller" : null,
+		"line" : 151,
+		"name" : "transfer",
+		"id" : 406
+	}, {
+		"caller" : "require",
+		"line" : 152,
+		"name" : "None",
+		"id" : 413
+	}, {
+		"caller" : "numbers",
+		"line" : 172,
+		"name" : "push",
+		"id" : 463
+	}, {
+		"caller" : "numbers",
+		"line" : 173,
+		"name" : "push",
+		"id" : 469
+	}, {
+		"caller" : "numbers",
+		"line" : 174,
+		"name" : "push",
+		"id" : 475
+	}, {
+		"caller" : "numbers",
+		"line" : 175,
+		"name" : "push",
+		"id" : 481
+	}, {
+		"caller" : "numbers",
+		"line" : 176,
+		"name" : "push",
+		"id" : 487
+	}, {
+		"caller" : "strings",
+		"line" : 189,
+		"name" : "push",
+		"id" : 508
+	}, {
+		"caller" : "strings",
+		"line" : 190,
+		"name" : "push",
+		"id" : 514
+	}, {
+		"caller" : "numbers",
+		"line" : 202,
+		"name" : "push",
+		"id" : 554
+	}, {
+		"caller" : "xs",
+		"line" : 227,
+		"name" : "push",
+		"id" : 616
+	}, {
+		"caller" : "xs",
+		"line" : 228,
+		"name" : "push",
+		"id" : 622
+	}, {
+		"caller" : "xs",
+		"line" : 229,
+		"name" : "push",
+		"id" : 628
+	}, {
+		"caller" : null,
+		"line" : 244,
+		"name" : "None",
+		"id" : 649
+	}, {
+		"caller" : "a",
+		"line" : 251,
+		"name" : "foo",
+		"id" : 661
+	}, {
+		"caller" : "numbers",
+		"line" : 258,
+		"name" : "push",
+		"id" : 679
+	}, {
+		"caller" : null,
+		"line" : 450,
+		"name" : "value",
+		"id" : 823
+	}, {
+		"caller" : null,
+		"line" : 450,
+		"name" : "gas",
+		"id" : 826
+	}, {
+		"caller" : null,
+		"line" : 450,
+		"name" : "None",
+		"id" : 827
+	}, {
+		"caller" : "externalEnter",
+		"line" : 477,
+		"name" : "None",
+		"id" : 863
+	}, {
+		"caller" : "withdrawFundsRP",
+		"line" : 478,
+		"name" : "None",
+		"id" : 866
+	}, {
+		"caller" : "externalLeave",
+		"line" : 479,
+		"name" : "None",
+		"id" : 869
+	}, {
+		"caller" : "externalEnter",
+		"line" : 490,
+		"name" : "None",
+		"id" : 882
+	}, {
+		"caller" : "withdrawFundsAdvancedRP",
+		"line" : 491,
+		"name" : "None",
+		"id" : 888
+	}, {
+		"caller" : "externalLeave",
+		"line" : 492,
+		"name" : "None",
+		"id" : 891
+	}, {
+		"caller" : "withdrawFundsAdvancedRP",
+		"line" : 500,
+		"name" : "None",
+		"id" : 916
+	}, {
+		"caller" : "FundsWithdrawnEvent",
+		"line" : 530,
+		"name" : "None",
+		"id" : 971
+	}, {
+		"caller" : "ThroneRules",
+		"line" : 836,
+		"name" : "None",
+		"id" : 1566
+	}, {
+		"caller" : "monarchsByNumber",
+		"line" : 845,
+		"name" : "push",
+		"id" : 1579
+	}, {
+		"caller" : "Monarch",
+		"line" : 846,
+		"name" : "None",
+		"id" : 1578
+	}, {
+		"caller" : "numberOfMonarchs",
+		"line" : 864,
+		"name" : "None",
+		"id" : 1599
+	}, {
+		"caller" : "isLivingMonarch",
+		"line" : 884,
+		"name" : "None",
+		"id" : 1643
+	}, {
+		"caller" : "roundMoneyDownNicely",
+		"line" : 891,
+		"name" : "None",
+		"id" : 1671
+	}, {
+		"caller" : "roundMoneyUpToWholeFinney",
+		"line" : 906,
+		"name" : "None",
+		"id" : 1713
+	}, {
+		"caller" : "validateNameInternal",
+		"line" : 919,
+		"name" : "None",
+		"id" : 1725
+	}, {
+		"caller" : "externalEnter",
+		"line" : 952,
+		"name" : "None",
+		"id" : 1745
+	}, {
+		"caller" : "fallbackRP",
+		"line" : 953,
+		"name" : "None",
+		"id" : 1748
+	}, {
+		"caller" : "externalLeave",
+		"line" : 954,
+		"name" : "None",
+		"id" : 1751
+	}, {
+		"caller" : "externalEnter",
+		"line" : 972,
+		"name" : "None",
+		"id" : 1760
+	}, {
+		"caller" : "claimThroneRP",
+		"line" : 973,
+		"name" : "None",
+		"id" : 1764
+	}, {
+		"caller" : "externalLeave",
+		"line" : 974,
+		"name" : "None",
+		"id" : 1767
+	}, {
+		"caller" : "externalEnter",
+		"line" : 984,
+		"name" : "None",
+		"id" : 1776
+	}, {
+		"caller" : "replaceWizardRP",
+		"line" : 985,
+		"name" : "None",
+		"id" : 1780
+	}, {
+		"caller" : "externalLeave",
+		"line" : 986,
+		"name" : "None",
+		"id" : 1783
+	}, {
+		"caller" : "claimThroneRP",
+		"line" : 991,
+		"name" : "None",
+		"id" : 1796
+	}, {
+		"caller" : "claimThroneRP",
+		"line" : 994,
+		"name" : "None",
+		"id" : 1808
+	}, {
+		"caller" : "validateNameInternal",
+		"line" : 1004,
+		"name" : "None",
+		"id" : 1825
+	}, {
+		"caller" : null,
+		"line" : 1009,
+		"name" : "None",
+		"id" : 1836
+	}, {
+		"caller" : "isLivingMonarch",
+		"line" : 1027,
+		"name" : "None",
+		"id" : 1877
+	}, {
+		"caller" : "validateProposedThroneRules",
+		"line" : 1213,
+		"name" : "None",
+		"id" : 2249
+	}, {
+		"caller" : null,
+		"line" : 1222,
+		"name" : "None",
+		"id" : 2265
+	}, {
+		"caller" : "kingdomsByNumber",
+		"line" : 1307,
+		"name" : "push",
+		"id" : 2375
+	}, {
+		"caller" : "KingdomListing",
+		"line" : 1307,
+		"name" : "None",
+		"id" : 2374
+	}, {
+		"caller" : "validateNameInternal",
+		"line" : 1334,
+		"name" : "None",
+		"id" : 2416
+	}, {
+		"caller" : "kingdomFactory",
+		"line" : 1345,
+		"name" : "validateProposedThroneRules",
+		"id" : 2439
+	}, {
+		"caller" : "roundMoneyUpToWholeFinney",
+		"line" : 1358,
+		"name" : "None",
+		"id" : 2449
+	}, {
+		"caller" : "externalEnter",
+		"line" : 1406,
+		"name" : "None",
+		"id" : 2471
+	}, {
+		"caller" : "createKingdomRP",
+		"line" : 1407,
+		"name" : "None",
+		"id" : 2479
+	}, {
+		"caller" : "externalLeave",
+		"line" : 1414,
+		"name" : "None",
+		"id" : 2482
+	}, {
+		"caller" : "externalEnter",
+		"line" : 1424,
+		"name" : "None",
+		"id" : 2491
+	}, {
+		"caller" : "replaceWizardRP",
+		"line" : 1425,
+		"name" : "None",
+		"id" : 2495
+	}, {
+		"caller" : "externalLeave",
+		"line" : 1426,
+		"name" : "None",
+		"id" : 2498
+	}, {
+		"caller" : "externalEnter",
+		"line" : 1431,
+		"name" : "None",
+		"id" : 2507
+	}, {
+		"caller" : "setKingdomCreationFeeWeiRP",
+		"line" : 1432,
+		"name" : "None",
+		"id" : 2511
+	}, {
+		"caller" : "externalLeave",
+		"line" : 1433,
+		"name" : "None",
+		"id" : 2514
+	}, {
+		"caller" : "externalEnter",
+		"line" : 1438,
+		"name" : "None",
+		"id" : 2523
+	}, {
+		"caller" : "setMaximumClaimPriceWeiRP",
+		"line" : 1439,
+		"name" : "None",
+		"id" : 2527
+	}, {
+		"caller" : "externalLeave",
+		"line" : 1440,
+		"name" : "None",
+		"id" : 2530
+	}, {
+		"caller" : "externalEnter",
+		"line" : 1446,
+		"name" : "None",
+		"id" : 2539
+	}, {
+		"caller" : "setKingdomFactoryRP",
+		"line" : 1447,
+		"name" : "None",
+		"id" : 2543
+	}, {
+		"caller" : "externalLeave",
+		"line" : 1448,
+		"name" : "None",
+		"id" : 2546
+	}, {
+		"caller" : "validateNameInternal",
+		"line" : 1461,
+		"name" : "None",
+		"id" : 2569
+	}, {
+		"caller" : "checkUniqueAndRegisterNewKingdomName",
+		"line" : 1466,
+		"name" : "None",
+		"id" : 2582
+	}, {
+		"caller" : "kingdomsByNumber",
+		"line" : 1496,
+		"name" : "push",
+		"id" : 2642
+	}, {
+		"caller" : "KingdomListing",
+		"line" : 1496,
+		"name" : "None",
+		"id" : 2641
+	}, {
+		"caller" : "WizardReplacedEvent",
+		"line" : 1515,
+		"name" : "None",
+		"id" : 2675
+	}, {
+		"caller" : "CreationFeeChangedEvent",
+		"line" : 1526,
+		"name" : "None",
+		"id" : 2703
+	}, {
+		"caller" : "FactoryChangedEvent",
+		"line" : 1550,
+		"name" : "None",
+		"id" : 2761
+	}, {
+		"caller" : "roundMoneyDownNicely",
+		"line" : 1577,
+		"name" : "None",
+		"id" : 2806
+	}, {
+		"caller" : "roundMoneyUpToWholeFinney",
+		"line" : 1582,
+		"name" : "None",
+		"id" : 2818
+	}, {
+		"caller" : "validateNameInternal",
+		"line" : 1587,
+		"name" : "None",
+		"id" : 2830
+	}, {
+		"caller" : "extractNameFromData",
+		"line" : 1592,
+		"name" : "None",
+		"id" : 2842
+	}, {
+		"caller" : "computeNameFuzzyHash",
+		"line" : 1597,
+		"name" : "None",
+		"id" : 2854
+	}, {
+		"caller" : null,
+		"line" : 1626,
+		"name" : "send",
+		"id" : 2932
+	}, {
+		"caller" : "removeByIndex",
+		"line" : 1644,
+		"name" : "None",
+		"id" : 2979
+	}, {
+		"caller" : "values",
+		"line" : 1660,
+		"name" : "push",
+		"id" : 3033
+	}, {
+		"caller" : "values",
+		"line" : 1661,
+		"name" : "push",
+		"id" : 3039
+	}, {
+		"caller" : "values",
+		"line" : 1662,
+		"name" : "push",
+		"id" : 3045
+	}, {
+		"caller" : "values",
+		"line" : 1663,
+		"name" : "push",
+		"id" : 3051
+	}, {
+		"caller" : "values",
+		"line" : 1664,
+		"name" : "push",
+		"id" : 3057
+	}, {
+		"caller" : "removeByValue",
+		"line" : 1665,
+		"name" : "None",
+		"id" : 3061
+	}, {
+		"caller" : "getValues",
+		"line" : 1666,
+		"name" : "None",
+		"id" : 3064
+	}, {
+		"caller" : null,
+		"line" : 1679,
+		"name" : "None",
+		"id" : 3091
+	}, {
+		"caller" : null,
+		"line" : 1684,
+		"name" : "None",
+		"id" : 3109
+	}, {
+		"caller" : null,
+		"line" : 1702,
+		"name" : "value",
+		"id" : 3167
+	}, {
+		"caller" : null,
+		"line" : 1702,
+		"name" : "None",
+		"id" : 3168
+	}, {
+		"caller" : "MiniDAO",
+		"line" : 1716,
+		"name" : "None",
+		"id" : 3197
+	}, {
+		"caller" : "dao",
+		"line" : 1721,
+		"name" : "withdraw",
+		"id" : 3213
+	}, {
+		"caller" : "dao",
+		"line" : 1726,
+		"name" : "withdraw",
+		"id" : 3227
+	}, {
+		"caller" : null,
+		"line" : 1734,
+		"name" : "None",
+		"id" : 3253
+	}, {
+		"caller" : null,
+		"line" : 1735,
+		"name" : "None",
+		"id" : 3261
+	}, {
+		"caller" : null,
+		"line" : 1736,
+		"name" : "None",
+		"id" : 3269
+	}, {
+		"caller" : null,
+		"line" : 1737,
+		"name" : "None",
+		"id" : 3277
+	}, {
+		"caller" : "sha3",
+		"line" : 1738,
+		"name" : "None",
+		"id" : 3282
+	}, {
+		"caller" : "sha3",
+		"line" : 1747,
+		"name" : "None",
+		"id" : 3319
+	}, {
+		"caller" : "sha3",
+		"line" : 1753,
+		"name" : "None",
+		"id" : 3335
+	}, {
+		"caller" : null,
+		"line" : 1753,
+		"name" : "None",
+		"id" : 3334
+	}, {
+		"caller" : "sha3",
+		"line" : 1758,
+		"name" : "None",
+		"id" : 3345
+	}, {
+		"caller" : "sha3",
+		"line" : 1758,
+		"name" : "None",
+		"id" : 3349
+	}, {
+		"caller" : "sha3",
+		"line" : 1762,
+		"name" : "None",
+		"id" : 3360
+	}, {
+		"caller" : "sha3",
+		"line" : 1767,
+		"name" : "None",
+		"id" : 3372
+	}, {
+		"caller" : null,
+		"line" : 1767,
+		"name" : "None",
+		"id" : 3371
+	}, {
+		"caller" : "sha3",
+		"line" : 1771,
+		"name" : "None",
+		"id" : 3385
+	}, {
+		"caller" : null,
+		"line" : 1771,
+		"name" : "None",
+		"id" : 3384
+	}, {
+		"caller" : "sha3",
+		"line" : 1775,
+		"name" : "None",
+		"id" : 3395
+	}, {
+		"caller" : "sha3",
+		"line" : 1779,
+		"name" : "None",
+		"id" : 3407
+	}, {
+		"caller" : null,
+		"line" : 1779,
+		"name" : "None",
+		"id" : 3406
+	}, {
+		"caller" : "sha3",
+		"line" : 1783,
+		"name" : "None",
+		"id" : 3419
+	}, {
+		"caller" : null,
+		"line" : 1783,
+		"name" : "None",
+		"id" : 3418
+	}, {
+		"caller" : "sha3",
+		"line" : 1787,
+		"name" : "None",
+		"id" : 3431
+	}, {
+		"caller" : null,
+		"line" : 1787,
+		"name" : "None",
+		"id" : 3430
+	}, {
+		"caller" : "sha3",
+		"line" : 1791,
+		"name" : "None",
+		"id" : 3443
+	}, {
+		"caller" : null,
+		"line" : 1791,
+		"name" : "None",
+		"id" : 3442
+	}, {
+		"caller" : "sha3",
+		"line" : 1795,
+		"name" : "None",
+		"id" : 3456
+	}, {
+		"caller" : null,
+		"line" : 1795,
+		"name" : "None",
+		"id" : 3455
+	}, {
+		"caller" : "sha3",
+		"line" : 1799,
+		"name" : "None",
+		"id" : 3466
+	}, {
+		"caller" : "proposals",
+		"line" : 1844,
+		"name" : "push",
+		"id" : 3531
+	}, {
+		"caller" : "Proposal",
+		"line" : 1844,
+		"name" : "None",
+		"id" : 3530
+	}, {
+		"caller" : "require",
+		"line" : 1860,
+		"name" : "None",
+		"id" : 3547
+	}, {
+		"caller" : "require",
+		"line" : 1863,
+		"name" : "None",
+		"id" : 3556
+	}, {
+		"caller" : "require",
+		"line" : 1866,
+		"name" : "None",
+		"id" : 3565
+	}, {
+		"caller" : "require",
+		"line" : 1874,
+		"name" : "None",
+		"id" : 3592
+	}, {
+		"caller" : "require",
+		"line" : 1875,
+		"name" : "None",
+		"id" : 3600
+	}, {
+		"caller" : null,
+		"line" : 1884,
+		"name" : "None",
+		"id" : 3608
+	}, {
+		"caller" : "require",
+		"line" : 1888,
+		"name" : "None",
+		"id" : 3623
+	}, {
+		"caller" : "require",
+		"line" : 1910,
+		"name" : "None",
+		"id" : 3684
+	}, {
+		"caller" : "winningProposal",
+		"line" : 1945,
+		"name" : "None",
+		"id" : 3757
+	}, {
+		"caller" : "assert",
+		"line" : 1956,
+		"name" : "None",
+		"id" : 3792
+	}, {
+		"caller" : "assert",
+		"line" : 1975,
+		"name" : "None",
+		"id" : 3828
+	}, {
+		"caller" : "assert",
+		"line" : 1981,
+		"name" : "None",
+		"id" : 3854
+	}, {
+		"caller" : "doIt",
+		"line" : 2001,
+		"name" : "None",
+		"id" : 3899
+	}, {
+		"caller" : "upgraded",
+		"line" : 2042,
+		"name" : "setCompleted",
+		"id" : 4012
+	}, {
+		"caller" : "require",
+		"line" : 2065,
+		"name" : "None",
+		"id" : 4064
+	}, {
+		"caller" : "require",
+		"line" : 2070,
+		"name" : "None",
+		"id" : 4084
+	}, {
+		"caller" : "selfdestruct",
+		"line" : 2077,
+		"name" : "None",
+		"id" : 4113
+	}, {
+		"caller" : "newPost",
+		"line" : 2093,
+		"name" : "None",
+		"id" : 4156
+	}, {
+		"caller" : "newComment",
+		"line" : 2093,
+		"name" : "None",
+		"id" : 4161
+	}, {
+		"caller" : null,
+		"line" : 2105,
+		"name" : "push",
+		"id" : 4203
+	}, {
+		"caller" : null,
+		"line" : 2112,
+		"name" : "push",
+		"id" : 4240
+	}, {
+		"caller" : "Transfer",
+		"line" : 2153,
+		"name" : "None",
+		"id" : 4389
+	}, {
+		"caller" : "spender",
+		"line" : 2157,
+		"name" : "receiveApproval",
+		"id" : 4426
+	}, {
+		"caller" : "Transfer",
+		"line" : 2192,
+		"name" : "None",
+		"id" : 4502
+	}, {
+		"caller" : "require",
+		"line" : 2212,
+		"name" : "None",
+		"id" : 4535
+	}, {
+		"caller" : "require",
+		"line" : 2213,
+		"name" : "None",
+		"id" : 4552
+	}, {
+		"caller" : "selfdestruct",
+		"line" : 2214,
+		"name" : "None",
+		"id" : 4556
+	}, {
+		"caller" : "update",
+		"line" : 2546,
+		"name" : "None",
+		"id" : 6143
+	}, {
+		"caller" : "oraclize_cbAddress",
+		"line" : 2551,
+		"name" : "None",
+		"id" : 6156
+	}, {
+		"caller" : "newDieselPrice",
+		"line" : 2552,
+		"name" : "None",
+		"id" : 6162
+	}, {
+		"caller" : "parseInt",
+		"line" : 2555,
+		"name" : "None",
+		"id" : 6168
+	}, {
+		"caller" : "newOraclizeQuery",
+		"line" : 2558,
+		"name" : "None",
+		"id" : 6177
+	}, {
+		"caller" : "oraclize_query",
+		"line" : 2563,
+		"name" : "None",
+		"id" : 6182
+	}, {
+		"caller" : "oraclize_setProof",
+		"line" : 2567,
+		"name" : "None",
+		"id" : 6205
+	}, {
+		"caller" : "update",
+		"line" : 2573,
+		"name" : "None",
+		"id" : 6208
+	}, {
+		"caller" : "oraclize_cbAddress",
+		"line" : 2577,
+		"name" : "None",
+		"id" : 6223
+	}, {
+		"caller" : "newKrakenPriceTicker",
+		"line" : 2580,
+		"name" : "None",
+		"id" : 6233
+	}, {
+		"caller" : "update",
+		"line" : 2581,
+		"name" : "None",
+		"id" : 6236
+	}, {
+		"caller" : "oraclize",
+		"line" : 2584,
+		"name" : "getPrice",
+		"id" : 6245
+	}, {
+		"caller" : "newOraclizeQuery",
+		"line" : 2585,
+		"name" : "None",
+		"id" : 6251
+	}, {
+		"caller" : "newOraclizeQuery",
+		"line" : 2589,
+		"name" : "None",
+		"id" : 6256
+	}, {
+		"caller" : "oraclize_query",
+		"line" : 2592,
+		"name" : "None",
+		"id" : 6262
+	}, {
+		"caller" : "update",
+		"line" : 2605,
+		"name" : "None",
+		"id" : 6284
+	}, {
+		"caller" : "oraclize_cbAddress",
+		"line" : 2610,
+		"name" : "None",
+		"id" : 6297
+	}, {
+		"caller" : "newSwarmContent",
+		"line" : 2611,
+		"name" : "None",
+		"id" : 6307
+	}, {
+		"caller" : "newOraclizeQuery",
+		"line" : 2616,
+		"name" : "None",
+		"id" : 6315
+	}, {
+		"caller" : "oraclize_query",
+		"line" : 2617,
+		"name" : "None",
+		"id" : 6320
+	}, {
+		"caller" : "update",
+		"line" : 2631,
+		"name" : "None",
+		"id" : 6340
+	}, {
+		"caller" : "oraclize_cbAddress",
+		"line" : 2635,
+		"name" : "None",
+		"id" : 6353
+	}, {
+		"caller" : "newTemperatureMeasure",
+		"line" : 2637,
+		"name" : "None",
+		"id" : 6363
+	}, {
+		"caller" : "newOraclizeQuery",
+		"line" : 2641,
+		"name" : "None",
+		"id" : 6371
+	}, {
+		"caller" : "oraclize_query",
+		"line" : 2642,
+		"name" : "None",
+		"id" : 6376
+	}, {
+		"caller" : "update",
+		"line" : 2651,
+		"name" : "None",
+		"id" : 6396
+	}, {
+		"caller" : "oraclize_cbAddress",
+		"line" : 2656,
+		"name" : "None",
+		"id" : 6409
+	}, {
+		"caller" : "newYoutubeViewsCount",
+		"line" : 2659,
+		"name" : "None",
+		"id" : 6419
+	}, {
+		"caller" : "newOraclizeQuery",
+		"line" : 2665,
+		"name" : "None",
+		"id" : 6427
+	}, {
+		"caller" : "oraclize_query",
+		"line" : 2671,
+		"name" : "None",
+		"id" : 6432
+	}, {
+		"caller" : "require",
+		"line" : 2715,
+		"name" : "None",
+		"id" : 6521
+	}, {
+		"caller" : "isAuthorized",
+		"line" : 2715,
+		"name" : "None",
+		"id" : 6519
+	}, {
+		"caller" : null,
+		"line" : 2724,
+		"name" : "None",
+		"id" : 6537
+	}, {
+		"caller" : "min",
+		"line" : 2839,
+		"name" : "None",
+		"id" : 6835
+	}, {
+		"caller" : "min",
+		"line" : 2867,
+		"name" : "None",
+		"id" : 6854
+	}, {
+		"caller" : "LogBid",
+		"line" : 2871,
+		"name" : "None",
+		"id" : 6872
+	}, {
+		"caller" : "LogCanceled",
+		"line" : 2880,
+		"name" : "None",
+		"id" : 6911
+	}, {
+		"caller" : null,
+		"line" : 2941,
+		"name" : "send",
+		"id" : 7019
+	}, {
+		"caller" : null,
+		"line" : 2942,
+		"name" : "send",
+		"id" : 7025
+	}, {
+		"caller" : "LogWithdrawal",
+		"line" : 2947,
+		"name" : "None",
+		"id" : 7034
+	}, {
+		"caller" : "auctions",
+		"line" : 2991,
+		"name" : "push",
+		"id" : 7145
+	}, {
+		"caller" : "AuctionCreated",
+		"line" : 2991,
+		"name" : "None",
+		"id" : 7154
+	}, {
+		"caller" : "assert",
+		"line" : 3991,
+		"name" : "None",
+		"id" : 10595
+	}, {
+		"caller" : "require",
+		"line" : 3994,
+		"name" : "None",
+		"id" : 10611
+	}, {
+		"caller" : "discountRate",
+		"line" : 3994,
+		"name" : "None",
+		"id" : 10608
+	}, {
+		"caller" : "discountRate",
+		"line" : 4011,
+		"name" : "None",
+		"id" : 10663
+	}, {
+		"caller" : "require",
+		"line" : 4013,
+		"name" : "None",
+		"id" : 10677
+	}, {
+		"caller" : "require",
+		"line" : 4026,
+		"name" : "None",
+		"id" : 10746
+	}, {
+		"caller" : "require",
+		"line" : 4029,
+		"name" : "None",
+		"id" : 10767
+	}, {
+		"caller" : "erc20token",
+		"line" : 4029,
+		"name" : "allowance",
+		"id" : 10764
+	}, {
+		"caller" : "erc20token",
+		"line" : 4033,
+		"name" : "transferFrom",
+		"id" : 10789
+	}, {
+		"caller" : "Multisended",
+		"line" : 4038,
+		"name" : "None",
+		"id" : 10808
+	}, {
+		"caller" : "require",
+		"line" : 4050,
+		"name" : "None",
+		"id" : 10831
+	}, {
+		"caller" : null,
+		"line" : 4052,
+		"name" : "transfer",
+		"id" : 10853
+	}, {
+		"caller" : "Multisended",
+		"line" : 4054,
+		"name" : "None",
+		"id" : 10874
+	}, {
+		"caller" : null,
+		"line" : 4055,
+		"name" : "None",
+		"id" : 10873
+	}, {
+		"caller" : "owner",
+		"line" : 4062,
+		"name" : "transfer",
+		"id" : 10892
+	}, {
+		"caller" : "require",
+		"line" : 4090,
+		"name" : "None",
+		"id" : 10964
+	}, {
+		"caller" : null,
+		"line" : 4091,
+		"name" : "None",
+		"id" : 10962
+	}, {
+		"caller" : "require",
+		"line" : 4183,
+		"name" : "None",
+		"id" : 11071
+	}, {
+		"caller" : "require",
+		"line" : 4197,
+		"name" : "None",
+		"id" : 11106
+	}, {
+		"caller" : "require",
+		"line" : 4202,
+		"name" : "None",
+		"id" : 11121
+	}, {
+		"caller" : "OwnerUpdate",
+		"line" : 4206,
+		"name" : "None",
+		"id" : 11126
+	}, {
+		"caller" : "setExclude",
+		"line" : 4210,
+		"name" : "None",
+		"id" : 11146
+	}, {
+		"caller" : "require",
+		"line" : 4237,
+		"name" : "None",
+		"id" : 11205
+	}, {
+		"caller" : "assert",
+		"line" : 4243,
+		"name" : "None",
+		"id" : 11262
+	}, {
+		"caller" : "assert",
+		"line" : 4244,
+		"name" : "None",
+		"id" : 11270
+	}, {
+		"caller" : "Transfer",
+		"line" : 4260,
+		"name" : "None",
+		"id" : 11330
+	}, {
+		"caller" : "Transfer",
+		"line" : 4276,
+		"name" : "None",
+		"id" : 11403
+	}, {
+		"caller" : "Approval",
+		"line" : 4286,
+		"name" : "None",
+		"id" : 11448
+	}, {
+		"caller" : "revert",
+		"line" : 4299,
+		"name" : "None",
+		"id" : 11486
+	}, {
+		"caller" : "revert",
+		"line" : 4333,
+		"name" : "None",
+		"id" : 11547
+	}, {
+		"caller" : "ecrecover",
+		"line" : 4335,
+		"name" : "None",
+		"id" : 11572
+	}, {
+		"caller" : "revert",
+		"line" : 4335,
+		"name" : "None",
+		"id" : 11575
+	}, {
+		"caller" : "revert",
+		"line" : 4341,
+		"name" : "None",
+		"id" : 11600
+	}, {
+		"caller" : "Transfer",
+		"line" : 4341,
+		"name" : "None",
+		"id" : 11613
+	}, {
+		"caller" : "Transfer",
+		"line" : 4342,
+		"name" : "None",
+		"id" : 11627
+	}, {
+		"caller" : "ecrecover",
+		"line" : 4367,
+		"name" : "None",
+		"id" : 11686
+	}, {
+		"caller" : "revert",
+		"line" : 4367,
+		"name" : "None",
+		"id" : 11689
+	}, {
+		"caller" : "Approval",
+		"line" : 4367,
+		"name" : "None",
+		"id" : 11704
+	}, {
+		"caller" : "Approval",
+		"line" : 4375,
+		"name" : "None",
+		"id" : 11754
+	}, {
+		"caller" : "_spender",
+		"line" : 4387,
+		"name" : "call",
+		"id" : 11770
+	}, {
+		"caller" : null,
+		"line" : 4387,
+		"name" : "None",
+		"id" : 11764
+	}, {
+		"caller" : null,
+		"line" : 4387,
+		"name" : "None",
+		"id" : 11763
+	}, {
+		"caller" : "keccak256",
+		"line" : 4387,
+		"name" : "None",
+		"id" : 11762
+	}, {
+		"caller" : "revert",
+		"line" : 4390,
+		"name" : "None",
+		"id" : 11773
+	}, {
+		"caller" : "Approval",
+		"line" : 4395,
+		"name" : "None",
+		"id" : 11805
+	}, {
+		"caller" : "_spender",
+		"line" : 4397,
+		"name" : "call",
+		"id" : 11810
+	}, {
+		"caller" : "revert",
+		"line" : 4402,
+		"name" : "None",
+		"id" : 11813
+	}, {
+		"caller" : "revert",
+		"line" : 4410,
+		"name" : "None",
+		"id" : 11835
+	}, {
+		"caller" : "revert",
+		"line" : 4413,
+		"name" : "None",
+		"id" : 11844
+	}, {
+		"caller" : "revert",
+		"line" : 4421,
+		"name" : "None",
+		"id" : 11886
+	}, {
+		"caller" : "require",
+		"line" : 4473,
+		"name" : "None",
+		"id" : 11955
+	}, {
+		"caller" : "require",
+		"line" : 4479,
+		"name" : "None",
+		"id" : 11963
+	}, {
+		"caller" : null,
+		"line" : 4505,
+		"name" : "send",
+		"id" : 12020
+	}, {
+		"caller" : "require",
+		"line" : 4542,
+		"name" : "None",
+		"id" : 12046
+	}, {
+		"caller" : "require",
+		"line" : 4544,
+		"name" : "None",
+		"id" : 12052
+	}, {
+		"caller" : "beneficiary",
+		"line" : 4548,
+		"name" : "transfer",
+		"id" : 12067
+	}, {
+		"caller" : "require",
+		"line" : 4568,
+		"name" : "None",
+		"id" : 12111
+	}, {
+		"caller" : "require",
+		"line" : 4569,
+		"name" : "None",
+		"id" : 12123
+	}, {
+		"caller" : null,
+		"line" : 4601,
+		"name" : "push",
+		"id" : 12171
+	}, {
+		"caller" : "Bid",
+		"line" : 4601,
+		"name" : "None",
+		"id" : 12170
+	}, {
+		"caller" : "require",
+		"line" : 4612,
+		"name" : "None",
+		"id" : 12205
+	}, {
+		"caller" : "require",
+		"line" : 4613,
+		"name" : "None",
+		"id" : 12212
+	}, {
+		"caller" : "require",
+		"line" : 4614,
+		"name" : "None",
+		"id" : 12219
+	}, {
+		"caller" : "keccak256",
+		"line" : 4623,
+		"name" : "None",
+		"id" : 12269
+	}, {
+		"caller" : "abi",
+		"line" : 4624,
+		"name" : "encodePacked",
+		"id" : 12268
+	}, {
+		"caller" : "placeBid",
+		"line" : 4632,
+		"name" : "None",
+		"id" : 12290
+	}, {
+		"caller" : null,
+		"line" : 4641,
+		"name" : "None",
+		"id" : 12303
+	}, {
+		"caller" : null,
+		"line" : 4642,
+		"name" : "transfer",
+		"id" : 12314
+	}, {
+		"caller" : null,
+		"line" : 4650,
+		"name" : "None",
+		"id" : 12336
+	}, {
+		"caller" : null,
+		"line" : 4678,
+		"name" : "transfer",
+		"id" : 12383
+	}, {
+		"caller" : "require",
+		"line" : 4683,
+		"name" : "None",
+		"id" : 12397
+	}, {
+		"caller" : "beneficiary",
+		"line" : 4687,
+		"name" : "transfer",
+		"id" : 12412
+	}, {
+		"caller" : "require",
+		"line" : 4698,
+		"name" : "None",
+		"id" : 12442
+	}, {
+		"caller" : "require",
+		"line" : 4705,
+		"name" : "None",
+		"id" : 12472
+	}, {
+		"caller" : "recoverSigner",
+		"line" : 4705,
+		"name" : "None",
+		"id" : 12469
+	}, {
+		"caller" : null,
+		"line" : 4706,
+		"name" : "transfer",
+		"id" : 12480
+	}, {
+		"caller" : "require",
+		"line" : 4714,
+		"name" : "None",
+		"id" : 12491
+	}, {
+		"caller" : "selfdestruct",
+		"line" : 4716,
+		"name" : "None",
+		"id" : 12496
+	}, {
+		"caller" : "require",
+		"line" : 4723,
+		"name" : "None",
+		"id" : 12515
+	}, {
+		"caller" : "recoverSigner",
+		"line" : 4769,
+		"name" : "None",
+		"id" : 12621
+	}, {
+		"caller" : "require",
+		"line" : 4779,
+		"name" : "None",
+		"id" : 12638
+	}, {
+		"caller" : "require",
+		"line" : 4780,
+		"name" : "None",
+		"id" : 12645
+	}, {
+		"caller" : "isValidSignature",
+		"line" : 4780,
+		"name" : "None",
+		"id" : 12644
+	}, {
+		"caller" : "recipient",
+		"line" : 4782,
+		"name" : "transfer",
+		"id" : 12651
+	}, {
+		"caller" : "selfdestruct",
+		"line" : 4783,
+		"name" : "None",
+		"id" : 12655
+	}, {
+		"caller" : "require",
+		"line" : 4790,
+		"name" : "None",
+		"id" : 12668
+	}, {
+		"caller" : "require",
+		"line" : 4791,
+		"name" : "None",
+		"id" : 12674
+	}, {
+		"caller" : "require",
+		"line" : 4801,
+		"name" : "None",
+		"id" : 12688
+	}, {
+		"caller" : "selfdestruct",
+		"line" : 4801,
+		"name" : "None",
+		"id" : 12692
+	}, {
+		"caller" : "require",
+		"line" : 4812,
+		"name" : "None",
+		"id" : 12711
+	}, {
+		"caller" : "require",
+		"line" : 4846,
+		"name" : "None",
+		"id" : 12777
+	}, {
+		"caller" : null,
+		"line" : 4847,
+		"name" : "None",
+		"id" : 12775
+	}, {
+		"caller" : "require",
+		"line" : 4850,
+		"name" : "None",
+		"id" : 12793
+	}, {
+		"caller" : null,
+		"line" : 4851,
+		"name" : "None",
+		"id" : 12798
+	}, {
+		"caller" : "require",
+		"line" : 4852,
+		"name" : "None",
+		"id" : 12812
+	}, {
+		"caller" : "require",
+		"line" : 4858,
+		"name" : "None",
+		"id" : 12845
+	}, {
+		"caller" : null,
+		"line" : 4859,
+		"name" : "value",
+		"id" : 12843
+	}, {
+		"caller" : null,
+		"line" : 4859,
+		"name" : "None",
+		"id" : 12844
+	}, {
+		"caller" : "require",
+		"line" : 4869,
+		"name" : "None",
+		"id" : 12884
+	}, {
+		"caller" : null,
+		"line" : 4869,
+		"name" : "value",
+		"id" : 12882
+	}, {
+		"caller" : null,
+		"line" : 4869,
+		"name" : "None",
+		"id" : 12883
+	}, {
+		"caller" : "require",
+		"line" : 4870,
+		"name" : "None",
+		"id" : 12897
+	}, {
+		"caller" : "withdrawReward",
+		"line" : 4874,
+		"name" : "None",
+		"id" : 12907
+	}, {
+		"caller" : "require",
+		"line" : 4888,
+		"name" : "None",
+		"id" : 12940
+	}, {
+		"caller" : null,
+		"line" : 4888,
+		"name" : "value",
+		"id" : 12938
+	}, {
+		"caller" : null,
+		"line" : 4888,
+		"name" : "None",
+		"id" : 12939
+	}, {
+		"caller" : "require",
+		"line" : -1,
+		"name" : "None",
+		"id" : 12953
+	}, {
+		"caller" : "untrustedWithdrawReward",
+		"line" : -1,
+		"name" : "None",
+		"id" : 12969
+	}, {
+		"caller" : null,
+		"line" : -1,
+		"name" : "send",
+		"id" : 13007
+	} ],
+	"VariableDeclaration" : [ {
+		"line" : 4,
+		"name" : "dao",
+		"id" : 3,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 5,
+		"name" : "test",
+		"id" : 5,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 6,
+		"name" : "userBalance",
+		"id" : 9,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 22,
+		"name" : "u",
+		"id" : 55,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 28,
+		"name" : "mallory",
+		"id" : 68,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 29,
+		"name" : "credit",
+		"id" : 72,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 32,
+		"name" : "mal",
+		"id" : 76,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 33,
+		"name" : "adrr",
+		"id" : 79,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 41,
+		"name" : "simple",
+		"id" : 100,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 48,
+		"name" : "owner",
+		"id" : 112,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 49,
+		"name" : "c",
+		"id" : 114,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 55,
+		"name" : "amount",
+		"id" : 125,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 61,
+		"name" : "amount",
+		"id" : 155,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 69,
+		"name" : "a",
+		"id" : 186,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 79,
+		"name" : "num",
+		"id" : 207,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 79,
+		"name" : "num2",
+		"id" : 209,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 89,
+		"name" : "num",
+		"id" : 230,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 89,
+		"name" : "num2",
+		"id" : 232,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 113,
+		"name" : "a",
+		"id" : 286,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 115,
+		"name" : "num",
+		"id" : 288,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 131,
+		"name" : "owner",
+		"id" : 323,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 132,
+		"name" : "i",
+		"id" : 326,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 133,
+		"name" : "a",
+		"id" : 329,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 134,
+		"name" : "b",
+		"id" : 332,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 135,
+		"name" : "c",
+		"id" : 335,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 144,
+		"name" : "amount",
+		"id" : 356,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 169,
+		"name" : "numbers",
+		"id" : 453,
+		"isStateVariable" : true,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 186,
+		"name" : "strings",
+		"id" : 501,
+		"isStateVariable" : true,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 199,
+		"name" : "numbers",
+		"id" : 531,
+		"isStateVariable" : true,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 200,
+		"name" : "_numbers",
+		"id" : 534,
+		"isStateVariable" : false,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 210,
+		"name" : "balances",
+		"id" : 572,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 212,
+		"name" : "recipient",
+		"id" : 574,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 212,
+		"name" : "value",
+		"id" : 576,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 217,
+		"name" : "account",
+		"id" : 595,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 224,
+		"name" : "xs",
+		"id" : 609,
+		"isStateVariable" : true,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 241,
+		"name" : "a",
+		"id" : 643,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 257,
+		"name" : "numbers",
+		"id" : 673,
+		"isStateVariable" : false,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 260,
+		"name" : "a",
+		"id" : 682,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 275,
+		"name" : "balances",
+		"id" : 693,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 296,
+		"name" : "recipient",
+		"id" : 695,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 296,
+		"name" : "value",
+		"id" : 697,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 320,
+		"name" : "account",
+		"id" : 716,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 330,
+		"name" : "nullReturn",
+		"id" : 737,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 340,
+		"name" : "word",
+		"id" : 760,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 342,
+		"name" : "whatever",
+		"id" : 762,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 349,
+		"name" : "o",
+		"id" : 775,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 357,
+		"name" : "reentryProtector",
+		"id" : 784,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 387,
+		"name" : "suggestedExtraGasToIncludeWithSends",
+		"id" : 808,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 446,
+		"name" : "_toAddress",
+		"id" : 810,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 447,
+		"name" : "_valueWei",
+		"id" : 812,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 448,
+		"name" : "_extraGasIncluded",
+		"id" : 814,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 462,
+		"name" : "funds",
+		"id" : 839,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 471,
+		"name" : "_address",
+		"id" : 849,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 486,
+		"name" : "_toAddress",
+		"id" : 874,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 487,
+		"name" : "_valueWei",
+		"id" : 876,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 488,
+		"name" : "_extraGas",
+		"id" : 878,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 497,
+		"name" : "fromAddress",
+		"id" : 898,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 498,
+		"name" : "toAddress",
+		"id" : 903,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 499,
+		"name" : "allAvailableWei",
+		"id" : 907,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 517,
+		"name" : "fromAddress",
+		"id" : 936,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 522,
+		"name" : "sentOk",
+		"id" : 955,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 510,
+		"name" : "_toAddress",
+		"id" : 921,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 511,
+		"name" : "_valueWei",
+		"id" : 923,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 512,
+		"name" : "_extraGasIncluded",
+		"id" : 925,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 547,
+		"name" : "_rawValueWei",
+		"id" : 977,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 587,
+		"name" : "minimumNameLength",
+		"id" : 1098,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 588,
+		"name" : "maximumNameLength",
+		"id" : 1101,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 589,
+		"name" : "nameDataPrefix",
+		"id" : 1104,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 607,
+		"name" : "nameBytes",
+		"id" : 1112,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 608,
+		"name" : "lengthBytes",
+		"id" : 1118,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 613,
+		"name" : "foundNonPunctuation",
+		"id" : 1134,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 615,
+		"name" : "b",
+		"id" : 1148,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 773,
+		"name" : "kingdomName",
+		"id" : 1472,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 776,
+		"name" : "world",
+		"id" : 1474,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 779,
+		"name" : "rules",
+		"id" : 1476,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 796,
+		"name" : "monarchsByNumber",
+		"id" : 1490,
+		"isStateVariable" : true,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 800,
+		"name" : "topWizard",
+		"id" : 1492,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 805,
+		"name" : "subWizard",
+		"id" : 1494,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 822,
+		"name" : "_kingdomName",
+		"id" : 1524,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 823,
+		"name" : "_world",
+		"id" : 1526,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 824,
+		"name" : "_topWizard",
+		"id" : 1528,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 825,
+		"name" : "_subWizard",
+		"id" : 1530,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 826,
+		"name" : "_startingClaimPriceWei",
+		"id" : 1532,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 827,
+		"name" : "_maximumClaimPriceWei",
+		"id" : 1534,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 828,
+		"name" : "_claimPriceAdjustPercent",
+		"id" : 1536,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 829,
+		"name" : "_curseIncubationDurationSeconds",
+		"id" : 1538,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 830,
+		"name" : "_commissionPerThousand",
+		"id" : 1540,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 867,
+		"name" : "reignStartedTimestamp",
+		"id" : 1607,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 874,
+		"name" : "elapsedReignDurationSeconds",
+		"id" : 1620,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 887,
+		"name" : "lastClaimPriceWei",
+		"id" : 1650,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 889,
+		"name" : "newClaimPrice",
+		"id" : 1656,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 905,
+		"name" : "valueWei",
+		"id" : 1707,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 917,
+		"name" : "_monarchName",
+		"id" : 1718,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 971,
+		"name" : "_monarchName",
+		"id" : 1756,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 983,
+		"name" : "_replacement",
+		"id" : 1772,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 993,
+		"name" : "_monarchName",
+		"id" : 1800,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1002,
+		"name" : "_compensationAddress",
+		"id" : 1819,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1013,
+		"name" : "paidWei",
+		"id" : 1843,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1014,
+		"name" : "priceWei",
+		"id" : 1848,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1020,
+		"name" : "excessWei",
+		"id" : 1859,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1025,
+		"name" : "compensationWei",
+		"id" : 1871,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1026,
+		"name" : "commissionWei",
+		"id" : 1874,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1147,
+		"name" : "_startingClaimPriceWei",
+		"id" : 2113,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1148,
+		"name" : "_maximumClaimPriceWei",
+		"id" : 2115,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1149,
+		"name" : "_claimPriceAdjustPercent",
+		"id" : 2117,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1150,
+		"name" : "_curseIncubationDurationSeconds",
+		"id" : 2119,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1151,
+		"name" : "_commissionPerThousand",
+		"id" : 2121,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1192,
+		"name" : "_kingdomName",
+		"id" : 2195,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1193,
+		"name" : "_world",
+		"id" : 2197,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1194,
+		"name" : "_topWizard",
+		"id" : 2199,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1195,
+		"name" : "_subWizard",
+		"id" : 2201,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1196,
+		"name" : "_startingClaimPriceWei",
+		"id" : 2203,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1197,
+		"name" : "_maximumClaimPriceWei",
+		"id" : 2205,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1198,
+		"name" : "_claimPriceAdjustPercent",
+		"id" : 2207,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1199,
+		"name" : "_curseIncubationDurationSeconds",
+		"id" : 2209,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1200,
+		"name" : "_commissionPerThousand",
+		"id" : 2211,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1248,
+		"name" : "topWizard",
+		"id" : 2281,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 1252,
+		"name" : "kingdomCreationFeeWei",
+		"id" : 2283,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 1264,
+		"name" : "kingdomsByNumber",
+		"id" : 2299,
+		"isStateVariable" : true,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 1269,
+		"name" : "maximumClaimPriceWei",
+		"id" : 2301,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 1273,
+		"name" : "kingdomFactory",
+		"id" : 2303,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 1276,
+		"name" : "kingdomNumbersByfuzzyHash",
+		"id" : 2307,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 1290,
+		"name" : "_topWizard",
+		"id" : 2327,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1291,
+		"name" : "_kingdomCreationFeeWei",
+		"id" : 2329,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1292,
+		"name" : "_kingdomFactory",
+		"id" : 2331,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1293,
+		"name" : "_maximumClaimPriceWei",
+		"id" : 2333,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1317,
+		"name" : "fuzzyHash",
+		"id" : 2397,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1315,
+		"name" : "_kingdomName",
+		"id" : 2391,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1332,
+		"name" : "_kingdomName",
+		"id" : 2409,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1340,
+		"name" : "_startingClaimPriceWei",
+		"id" : 2421,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1341,
+		"name" : "_claimPriceAdjustPercent",
+		"id" : 2423,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1342,
+		"name" : "_curseIncubationDurationSeconds",
+		"id" : 2425,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1343,
+		"name" : "_commissionPerThousand",
+		"id" : 2427,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1400,
+		"name" : "_kingdomName",
+		"id" : 2459,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1401,
+		"name" : "_startingClaimPriceWei",
+		"id" : 2461,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1402,
+		"name" : "_claimPriceAdjustPercent",
+		"id" : 2463,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1403,
+		"name" : "_curseIncubationDurationSeconds",
+		"id" : 2465,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1404,
+		"name" : "_commissionPerThousand",
+		"id" : 2467,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1423,
+		"name" : "_replacement",
+		"id" : 2487,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1430,
+		"name" : "_kingdomCreationFeeWei",
+		"id" : 2503,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1437,
+		"name" : "_maximumClaimPriceWei",
+		"id" : 2519,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1445,
+		"name" : "_kingdomFactory",
+		"id" : 2535,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1459,
+		"name" : "subWizard",
+		"id" : 2563,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1465,
+		"name" : "newKingdomNumber",
+		"id" : 2575,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1471,
+		"name" : "paidWei",
+		"id" : 2585,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1477,
+		"name" : "excessWei",
+		"id" : 2596,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1484,
+		"name" : "kingdomContract",
+		"id" : 2614,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1452,
+		"name" : "_kingdomName",
+		"id" : 2551,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1453,
+		"name" : "_startingClaimPriceWei",
+		"id" : 2553,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1454,
+		"name" : "_claimPriceAdjustPercent",
+		"id" : 2555,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1455,
+		"name" : "_curseIncubationDurationSeconds",
+		"id" : 2557,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1456,
+		"name" : "_commissionPerThousand",
+		"id" : 2559,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1513,
+		"name" : "oldWizard",
+		"id" : 2665,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1506,
+		"name" : "replacement",
+		"id" : 2647,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1518,
+		"name" : "_kingdomCreationFeeWei",
+		"id" : 2680,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1529,
+		"name" : "_maximumClaimPriceWei",
+		"id" : 2708,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1542,
+		"name" : "_kingdomFactory",
+		"id" : 2738,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1561,
+		"name" : "fuzzyHash",
+		"id" : 2772,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1558,
+		"name" : "_kingdomName",
+		"id" : 2766,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1559,
+		"name" : "_newKingdomNumber",
+		"id" : 2768,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1575,
+		"name" : "_rawValueWei",
+		"id" : 2799,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1580,
+		"name" : "_valueWei",
+		"id" : 2811,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1585,
+		"name" : "_name",
+		"id" : 2823,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1590,
+		"name" : "_data",
+		"id" : 2835,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1595,
+		"name" : "_name",
+		"id" : 2847,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1603,
+		"name" : "locked",
+		"id" : 2861,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 1623,
+		"name" : "account",
+		"id" : 2904,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1624,
+		"name" : "a",
+		"id" : 2913,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1629,
+		"name" : "values",
+		"id" : 2938,
+		"isStateVariable" : true,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 1635,
+		"name" : "i",
+		"id" : 2950,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1634,
+		"name" : "value",
+		"id" : 2944,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1643,
+		"name" : "i",
+		"id" : 2972,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1642,
+		"name" : "value",
+		"id" : 2968,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1647,
+		"name" : "i",
+		"id" : 2984,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1671,
+		"name" : "approvals",
+		"id" : 3072,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 1672,
+		"name" : "approvalMask",
+		"id" : 3074,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 1673,
+		"name" : "approver1",
+		"id" : 3076,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 1674,
+		"name" : "approver2",
+		"id" : 3078,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 1675,
+		"name" : "target",
+		"id" : 3080,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 1683,
+		"name" : "approver",
+		"id" : 3103,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1694,
+		"name" : "balances",
+		"id" : 3134,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 1700,
+		"name" : "amount",
+		"id" : 3148,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1710,
+		"name" : "stack",
+		"id" : 3182,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 1711,
+		"name" : "stackLimit",
+		"id" : 3185,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 1712,
+		"name" : "amount",
+		"id" : 3187,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 1713,
+		"name" : "dao",
+		"id" : 3189,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 1715,
+		"name" : "daoAddress",
+		"id" : 3191,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1733,
+		"name" : "tickers",
+		"id" : 3241,
+		"isStateVariable" : false,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 1743,
+		"name" : "btc",
+		"id" : 3291,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1744,
+		"name" : "eth",
+		"id" : 3297,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1745,
+		"name" : "ltc",
+		"id" : 3303,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1746,
+		"name" : "doge",
+		"id" : 3309,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1752,
+		"name" : "account",
+		"id" : 3328,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1821,
+		"name" : "chairperson",
+		"id" : 3486,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 1825,
+		"name" : "voters",
+		"id" : 3490,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 1827,
+		"name" : "proposals",
+		"id" : 3493,
+		"isStateVariable" : true,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 1829,
+		"name" : "proposalNames",
+		"id" : 3496,
+		"isStateVariable" : false,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 1847,
+		"name" : "voter",
+		"id" : 3538,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1872,
+		"name" : "sender",
+		"id" : 3581,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1896,
+		"name" : "delegate_",
+		"id" : 3640,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1870,
+		"name" : "to",
+		"id" : 3577,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1909,
+		"name" : "sender",
+		"id" : 3673,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1909,
+		"name" : "proposal",
+		"id" : 3669,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1929,
+		"name" : "winningVoteCount",
+		"id" : 3713,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1956,
+		"name" : "c",
+		"id" : 3781,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1950,
+		"name" : "a",
+		"id" : 3766,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1950,
+		"name" : "b",
+		"id" : 3768,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1968,
+		"name" : "c",
+		"id" : 3807,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1960,
+		"name" : "a",
+		"id" : 3799,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1961,
+		"name" : "b",
+		"id" : 3801,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1974,
+		"name" : "a",
+		"id" : 3817,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1974,
+		"name" : "b",
+		"id" : 3819,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1981,
+		"name" : "c",
+		"id" : 3845,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1978,
+		"name" : "a",
+		"id" : 3837,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1978,
+		"name" : "b",
+		"id" : 3839,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1985,
+		"name" : "data1",
+		"id" : 3862,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 1986,
+		"name" : "values",
+		"id" : 3866,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 1986,
+		"name" : "balances",
+		"id" : 3870,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 1994,
+		"name" : "a",
+		"id" : 3880,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 1998,
+		"name" : "a",
+		"id" : 3892,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2001,
+		"name" : "a",
+		"id" : 3906,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2001,
+		"name" : "b",
+		"id" : 3908,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2003,
+		"name" : "a",
+		"id" : 3920,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2006,
+		"name" : "a",
+		"id" : 3932,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2006,
+		"name" : "b",
+		"id" : 3934,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2007,
+		"name" : "a",
+		"id" : 3946,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2019,
+		"name" : "owner",
+		"id" : 3963,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2024,
+		"name" : "last_completed_migration",
+		"id" : 3965,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2033,
+		"name" : "completed",
+		"id" : 3985,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2038,
+		"name" : "upgraded",
+		"id" : 4003,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2035,
+		"name" : "new_address",
+		"id" : 3997,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2047,
+		"name" : "storedData",
+		"id" : 4020,
+		"isStateVariable" : true,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 2052,
+		"name" : "n",
+		"id" : 4022,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2052,
+		"name" : "x",
+		"id" : 4024,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2058,
+		"name" : "n",
+		"id" : 4036,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2062,
+		"name" : "owner",
+		"id" : 4049,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2062,
+		"name" : "storedData",
+		"id" : 4053,
+		"isStateVariable" : true,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 2063,
+		"name" : "n",
+		"id" : 4055,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2063,
+		"name" : "x",
+		"id" : 4057,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2068,
+		"name" : "n",
+		"id" : 4075,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2083,
+		"name" : "postsFromAccount",
+		"id" : 4128,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 2084,
+		"name" : "commentsFromPost",
+		"id" : 4133,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 2086,
+		"name" : "commentFromAccount",
+		"id" : 4137,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 2088,
+		"name" : "posts",
+		"id" : 4140,
+		"isStateVariable" : true,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 2089,
+		"name" : "comments",
+		"id" : 4143,
+		"isStateVariable" : true,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 2102,
+		"name" : "post",
+		"id" : 4183,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2103,
+		"name" : "postId",
+		"id" : 4189,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2101,
+		"name" : "_text",
+		"id" : 4179,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2110,
+		"name" : "comment",
+		"id" : 4221,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2111,
+		"name" : "commentId",
+		"id" : 4227,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2110,
+		"name" : "_postId",
+		"id" : 4215,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2110,
+		"name" : "_text",
+		"id" : 4217,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2120,
+		"name" : "name",
+		"id" : 4272,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2121,
+		"name" : "symbol",
+		"id" : 4274,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2121,
+		"name" : "version",
+		"id" : 4276,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2122,
+		"name" : "decimals",
+		"id" : 4278,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2123,
+		"name" : "totalSupply",
+		"id" : 4280,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2125,
+		"name" : "balanceOf",
+		"id" : 4284,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 2125,
+		"name" : "allowance",
+		"id" : 4290,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 2126,
+		"name" : "spentAllowance",
+		"id" : 4296,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 2130,
+		"name" : "initialSupply",
+		"id" : 4306,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2133,
+		"name" : "tokenName",
+		"id" : 4308,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2134,
+		"name" : "decimalUnits",
+		"id" : 4310,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2134,
+		"name" : "tokenSymbol",
+		"id" : 4312,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2135,
+		"name" : "versionOfTheCode",
+		"id" : 4314,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2144,
+		"name" : "_to",
+		"id" : 4347,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2144,
+		"name" : "_value",
+		"id" : 4349,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2157,
+		"name" : "spender",
+		"id" : 4413,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2155,
+		"name" : "_spender",
+		"id" : 4394,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2155,
+		"name" : "_value",
+		"id" : 4396,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2155,
+		"name" : "_extraData",
+		"id" : 4398,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2163,
+		"name" : "_from",
+		"id" : 4433,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2163,
+		"name" : "_to",
+		"id" : 4435,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2163,
+		"name" : "_value",
+		"id" : 4437,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2205,
+		"name" : "owner",
+		"id" : 4515,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2207,
+		"name" : "_owner",
+		"id" : 4517,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2212,
+		"name" : "_owner",
+		"id" : 4527,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2213,
+		"name" : "recipient",
+		"id" : 4544,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2217,
+		"name" : "addr",
+		"id" : 4578,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2216,
+		"name" : "code",
+		"id" : 4572,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2216,
+		"name" : "salt",
+		"id" : 4574,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2245,
+		"name" : "cbAddress",
+		"id" : 4591,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2272,
+		"name" : "day",
+		"id" : 4693,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2274,
+		"name" : "week",
+		"id" : 4702,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2275,
+		"name" : "month",
+		"id" : 4711,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2276,
+		"name" : "proofType_NONE",
+		"id" : 4714,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2280,
+		"name" : "proofType_TLSNotary",
+		"id" : 4717,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2280,
+		"name" : "proofStorage_IPFS",
+		"id" : 4720,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2281,
+		"name" : "networkID_auto",
+		"id" : 4723,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2281,
+		"name" : "networkID_mainnet",
+		"id" : 4726,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2282,
+		"name" : "networkID_testnet",
+		"id" : 4729,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2282,
+		"name" : "networkID_morden",
+		"id" : 4732,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2283,
+		"name" : "networkID_consensys",
+		"id" : 4735,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2285,
+		"name" : "OAR",
+		"id" : 4737,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2285,
+		"name" : "oraclize",
+		"id" : 4739,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2537,
+		"name" : "DieselPriceUSD",
+		"id" : 6131,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2550,
+		"name" : "myid",
+		"id" : 6148,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2550,
+		"name" : "result",
+		"id" : 6150,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2566,
+		"name" : "ETHXBT",
+		"id" : 6190,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2575,
+		"name" : "myid",
+		"id" : 6213,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2575,
+		"name" : "result",
+		"id" : 6215,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2576,
+		"name" : "proof",
+		"id" : 6217,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2598,
+		"name" : "swarmContent",
+		"id" : 6272,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2608,
+		"name" : "myid",
+		"id" : 6289,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2609,
+		"name" : "result",
+		"id" : 6291,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2624,
+		"name" : "temperature",
+		"id" : 6328,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2634,
+		"name" : "myid",
+		"id" : 6345,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2634,
+		"name" : "result",
+		"id" : 6347,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2643,
+		"name" : "viewsCount",
+		"id" : 6384,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2655,
+		"name" : "myid",
+		"id" : 6401,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2655,
+		"name" : "result",
+		"id" : 6403,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2690,
+		"name" : "authority",
+		"id" : 6461,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2691,
+		"name" : "owner",
+		"id" : 6463,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2696,
+		"name" : "owner_",
+		"id" : 6479,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2704,
+		"name" : "authority_",
+		"id" : 6495,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2721,
+		"name" : "src",
+		"id" : 6527,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2721,
+		"name" : "sig",
+		"id" : 6529,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2733,
+		"name" : "totalVisit",
+		"id" : 6573,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2736,
+		"name" : "visitors",
+		"id" : 6582,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 2737,
+		"name" : "visitorAddrs",
+		"id" : 6585,
+		"isStateVariable" : true,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 2774,
+		"name" : "owner",
+		"id" : 6677,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2775,
+		"name" : "bidIncrement",
+		"id" : 6679,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2775,
+		"name" : "startBlock",
+		"id" : 6681,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2776,
+		"name" : "endBlock",
+		"id" : 6683,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2778,
+		"name" : "ipfsHash",
+		"id" : 6685,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2780,
+		"name" : "canceled",
+		"id" : 6687,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2780,
+		"name" : "highestBindingBid",
+		"id" : 6689,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2781,
+		"name" : "highestBidder",
+		"id" : 6691,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2783,
+		"name" : "fundsByBidder",
+		"id" : 6695,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 2786,
+		"name" : "ownerHasWithdrawn",
+		"id" : 6697,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2800,
+		"name" : "_owner",
+		"id" : 6721,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2800,
+		"name" : "_bidIncrement",
+		"id" : 6723,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2801,
+		"name" : "_startBlock",
+		"id" : 6725,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2801,
+		"name" : "_endBlock",
+		"id" : 6727,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2803,
+		"name" : "_ipfsHash",
+		"id" : 6729,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2819,
+		"name" : "newBid",
+		"id" : 6799,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2827,
+		"name" : "highestBid",
+		"id" : 6814,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2873,
+		"name" : "a",
+		"id" : 6879,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2873,
+		"name" : "b",
+		"id" : 6881,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2884,
+		"name" : "withdrawalAccount",
+		"id" : 6924,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2885,
+		"name" : "withdrawalAmount",
+		"id" : 6927,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2976,
+		"name" : "auctions",
+		"id" : 7103,
+		"isStateVariable" : true,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 2987,
+		"name" : "newAuction",
+		"id" : 7130,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2986,
+		"name" : "bidIncrement",
+		"id" : 7120,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2986,
+		"name" : "startBlock",
+		"id" : 7122,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2986,
+		"name" : "endBlock",
+		"id" : 7124,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2986,
+		"name" : "ipfsHash",
+		"id" : 7126,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 2998,
+		"name" : "_bool",
+		"id" : 7169,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 2998,
+		"name" : "_int",
+		"id" : 7171,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 3000,
+		"name" : "_int8",
+		"id" : 7173,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 3000,
+		"name" : "_int256",
+		"id" : 7175,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 3000,
+		"name" : "_uint",
+		"id" : 7177,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 3001,
+		"name" : "_uint8",
+		"id" : 7179,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 3001,
+		"name" : "_uint256",
+		"id" : 7181,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 3001,
+		"name" : "_address",
+		"id" : 7183,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 3001,
+		"name" : "_byte",
+		"id" : 7185,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 3001,
+		"name" : "_bytes1",
+		"id" : 7187,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 3002,
+		"name" : "_bytes32",
+		"id" : 7189,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 3003,
+		"name" : "_bytes",
+		"id" : 7191,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 3005,
+		"name" : "_string",
+		"id" : 7193,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 3007,
+		"name" : "___bool",
+		"id" : 7205,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 3006,
+		"name" : "_bool",
+		"id" : 7199,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 3011,
+		"name" : "___int",
+		"id" : 7222,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 3011,
+		"name" : "_bool",
+		"id" : 7216,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 3016,
+		"name" : "___int8",
+		"id" : 7239,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 3016,
+		"name" : "_bool",
+		"id" : 7233,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 3021,
+		"name" : "___int256",
+		"id" : 7256,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 3020,
+		"name" : "_bool",
+		"id" : 7250,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 3026,
+		"name" : "___uint",
+		"id" : 7273,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 3025,
+		"name" : "_bool",
+		"id" : 7267,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 3031,
+		"name" : "___uint8",
+		"id" : 7290,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 3030,
+		"name" : "_bool",
+		"id" : 7284,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 3036,
+		"name" : "___uint256",
+		"id" : 7307,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 3035,
+		"name" : "_bool",
+		"id" : 7301,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 3041,
+		"name" : "___address",
+		"id" : 7324,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 3040,
+		"name" : "_bool",
+		"id" : 7318,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 3046,
+		"name" : "___byte",
+		"id" : 7341,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 3045,
+		"name" : "_bool",
+		"id" : 7335,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 3051,
+		"name" : "___bytes1",
+		"id" : 7358,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 3050,
+		"name" : "_bool",
+		"id" : 7352,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 3056,
+		"name" : "___bytes32",
+		"id" : 7375,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 3053,
+		"name" : "_bool",
+		"id" : 7369,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 3061,
+		"name" : "___bytes",
+		"id" : 7392,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 3060,
+		"name" : "_bool",
+		"id" : 7386,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 3066,
+		"name" : "___string",
+		"id" : 7409,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 3065,
+		"name" : "_bool",
+		"id" : 7403,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 3073,
+		"name" : "___bool",
+		"id" : 7430,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 3075,
+		"name" : "___uint256",
+		"id" : 7433,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 3977,
+		"name" : "txCount",
+		"id" : 10561,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 3981,
+		"name" : "owner",
+		"id" : 10563,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 3982,
+		"name" : "pendingOwner",
+		"id" : 10565,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 3982,
+		"name" : "arrayLimit",
+		"id" : 10568,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 3983,
+		"name" : "discountStep",
+		"id" : 10571,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 3984,
+		"name" : "fee",
+		"id" : 10574,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 3997,
+		"name" : "_owner",
+		"id" : 10617,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 3997,
+		"name" : "_pendingOwner",
+		"id" : 10619,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4006,
+		"name" : "count",
+		"id" : 10643,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4005,
+		"name" : "_customer",
+		"id" : 10637,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4009,
+		"name" : "_customer",
+		"id" : 10655,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4012,
+		"name" : "_newPendingOwner",
+		"id" : 10669,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4016,
+		"name" : "_newLimit",
+		"id" : 10690,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4019,
+		"name" : "_newFee",
+		"id" : 10702,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4023,
+		"name" : "_newStep",
+		"id" : 10714,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4026,
+		"name" : "total",
+		"id" : 10738,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4028,
+		"name" : "erc20token",
+		"id" : 10749,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4029,
+		"name" : "i",
+		"id" : 10755,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4024,
+		"name" : "token",
+		"id" : 10726,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4024,
+		"name" : "_contributors",
+		"id" : 10729,
+		"isStateVariable" : false,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 4024,
+		"name" : "_balances",
+		"id" : 10732,
+		"isStateVariable" : false,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 4048,
+		"name" : "total",
+		"id" : 10823,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4051,
+		"name" : "i",
+		"id" : 10834,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4041,
+		"name" : "_contributors",
+		"id" : 10814,
+		"isStateVariable" : false,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 4042,
+		"name" : "_balances",
+		"id" : 10817,
+		"isStateVariable" : false,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 4070,
+		"name" : "uintStorage",
+		"id" : 10929,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 4071,
+		"name" : "stringStorage",
+		"id" : 10933,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 4072,
+		"name" : "addressStorage",
+		"id" : 10937,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 4074,
+		"name" : "bytesStorage",
+		"id" : 10941,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 4077,
+		"name" : "boolStorage",
+		"id" : 10945,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 4078,
+		"name" : "intStorage",
+		"id" : 10949,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 4087,
+		"name" : "_impl",
+		"id" : 10954,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4091,
+		"name" : "data",
+		"id" : 10967,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4117,
+		"name" : "_upgradeabilityOwner",
+		"id" : 10981,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 4124,
+		"name" : "newUpgradeabilityOwner",
+		"id" : 10991,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4128,
+		"name" : "totalSupply",
+		"id" : 11002,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 4185,
+		"name" : "owner",
+		"id" : 11077,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 4192,
+		"name" : "newOwner",
+		"id" : 11089,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 4197,
+		"name" : "_newOwner",
+		"id" : 11097,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4213,
+		"name" : "transferEnabled",
+		"id" : 11152,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 4217,
+		"name" : "lockFlag",
+		"id" : 11155,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 4217,
+		"name" : "locked",
+		"id" : 11159,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 4219,
+		"name" : "exclude",
+		"id" : 11163,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 4222,
+		"name" : "_enable",
+		"id" : 11165,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4225,
+		"name" : "_enable",
+		"id" : 11177,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4235,
+		"name" : "_addr",
+		"id" : 11193,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4238,
+		"name" : "_addr",
+		"id" : 11218,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4239,
+		"name" : "_addr",
+		"id" : 11236,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4249,
+		"name" : "_to",
+		"id" : 11285,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4249,
+		"name" : "_value",
+		"id" : 11287,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4264,
+		"name" : "_from",
+		"id" : 11342,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4264,
+		"name" : "_to",
+		"id" : 11344,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4264,
+		"name" : "_value",
+		"id" : 11346,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4284,
+		"name" : "_owner",
+		"id" : 11415,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4285,
+		"name" : "_spender",
+		"id" : 11427,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4285,
+		"name" : "_value",
+		"id" : 11429,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4287,
+		"name" : "_owner",
+		"id" : 11455,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4287,
+		"name" : "_spender",
+		"id" : 11457,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4291,
+		"name" : "balances",
+		"id" : 11473,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 4292,
+		"name" : "allowed",
+		"id" : 11479,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 4299,
+		"name" : "name",
+		"id" : 11492,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 4300,
+		"name" : "decimals",
+		"id" : 11495,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 4307,
+		"name" : "symbol",
+		"id" : 11498,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 4309,
+		"name" : "version",
+		"id" : 11501,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 4310,
+		"name" : "allocateEndTime",
+		"id" : 11503,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 4313,
+		"name" : "nonces",
+		"id" : 11507,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 4333,
+		"name" : "nonce",
+		"id" : 11551,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4334,
+		"name" : "h",
+		"id" : 11557,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4326,
+		"name" : "_from",
+		"id" : 11519,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4327,
+		"name" : "_to",
+		"id" : 11521,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4327,
+		"name" : "_value",
+		"id" : 11523,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4328,
+		"name" : "_feeSmt",
+		"id" : 11525,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4329,
+		"name" : "_v",
+		"id" : 11527,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4331,
+		"name" : "_r",
+		"id" : 11529,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4332,
+		"name" : "_s",
+		"id" : 11531,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4365,
+		"name" : "nonce",
+		"id" : 11666,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4365,
+		"name" : "hash",
+		"id" : 11672,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4363,
+		"name" : "_from",
+		"id" : 11650,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4363,
+		"name" : "_spender",
+		"id" : 11652,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4363,
+		"name" : "_value",
+		"id" : 11654,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4363,
+		"name" : "_v",
+		"id" : 11656,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4363,
+		"name" : "_r",
+		"id" : 11658,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4363,
+		"name" : "_s",
+		"id" : 11660,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4369,
+		"name" : "_addr",
+		"id" : 11719,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4370,
+		"name" : "_spender",
+		"id" : 11731,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4370,
+		"name" : "_value",
+		"id" : 11733,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4370,
+		"name" : "_extraData",
+		"id" : 11735,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4393,
+		"name" : "_spender",
+		"id" : 11782,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4393,
+		"name" : "_value",
+		"id" : 11784,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4394,
+		"name" : "_extraData",
+		"id" : 11786,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4416,
+		"name" : "to",
+		"id" : 11859,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4416,
+		"name" : "value",
+		"id" : 11865,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4407,
+		"name" : "_owners",
+		"id" : 11823,
+		"isStateVariable" : false,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 4407,
+		"name" : "_values",
+		"id" : 11826,
+		"isStateVariable" : false,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 4427,
+		"name" : "beneficiary",
+		"id" : 11905,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 4429,
+		"name" : "auctionEndTime",
+		"id" : 11907,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 4430,
+		"name" : "highestBidder",
+		"id" : 11909,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 4431,
+		"name" : "highestBid",
+		"id" : 11911,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 4434,
+		"name" : "pendingReturns",
+		"id" : 11915,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 4440,
+		"name" : "ended",
+		"id" : 11917,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 4455,
+		"name" : "_biddingTime",
+		"id" : 11931,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4455,
+		"name" : "_beneficiary",
+		"id" : 11933,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4499,
+		"name" : "amount",
+		"id" : 12000,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4551,
+		"name" : "beneficiary",
+		"id" : 12078,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 4552,
+		"name" : "biddingEnd",
+		"id" : 12080,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 4554,
+		"name" : "revealEnd",
+		"id" : 12082,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 4555,
+		"name" : "ended",
+		"id" : 12084,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 4556,
+		"name" : "bids",
+		"id" : 12089,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 4558,
+		"name" : "highestBidder",
+		"id" : 12091,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 4559,
+		"name" : "highestBid",
+		"id" : 12093,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 4560,
+		"name" : "pendingReturns",
+		"id" : 12097,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 4570,
+		"name" : "_biddingTime",
+		"id" : 12129,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4571,
+		"name" : "_revealTime",
+		"id" : 12131,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4572,
+		"name" : "_beneficiary",
+		"id" : 12133,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4597,
+		"name" : "_blindedBid",
+		"id" : 12155,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4611,
+		"name" : "length",
+		"id" : 12193,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4615,
+		"name" : "refund",
+		"id" : 12222,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4617,
+		"name" : "bidToCheck",
+		"id" : 12235,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4619,
+		"name" : "value",
+		"id" : 12244,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4619,
+		"name" : "fake",
+		"id" : 12246,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4620,
+		"name" : "secret",
+		"id" : 12248,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4606,
+		"name" : "_values",
+		"id" : 12177,
+		"isStateVariable" : false,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 4606,
+		"name" : "_fake",
+		"id" : 12180,
+		"isStateVariable" : false,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 4607,
+		"name" : "_secret",
+		"id" : 12183,
+		"isStateVariable" : false,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : 4645,
+		"name" : "bidder",
+		"id" : 12319,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4646,
+		"name" : "value",
+		"id" : 12321,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4662,
+		"name" : "amount",
+		"id" : 12361,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4689,
+		"name" : "owner",
+		"id" : 12420,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 4692,
+		"name" : "usedNonces",
+		"id" : 12424,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 4703,
+		"name" : "message",
+		"id" : 12451,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4696,
+		"name" : "amount",
+		"id" : 12430,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4696,
+		"name" : "nonce",
+		"id" : 12432,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4696,
+		"name" : "signature",
+		"id" : 12434,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4750,
+		"name" : "sender",
+		"id" : 12570,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 4753,
+		"name" : "recipient",
+		"id" : 12572,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 4754,
+		"name" : "expiration",
+		"id" : 12574,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 4755,
+		"name" : "_recipient",
+		"id" : 12576,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4755,
+		"name" : "duration",
+		"id" : 12578,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4764,
+		"name" : "message",
+		"id" : 12607,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4760,
+		"name" : "amount",
+		"id" : 12599,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4760,
+		"name" : "signature",
+		"id" : 12601,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4776,
+		"name" : "amount",
+		"id" : 12628,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4779,
+		"name" : "signature",
+		"id" : 12630,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4787,
+		"name" : "newExpiration",
+		"id" : 12660,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4844,
+		"name" : "n",
+		"id" : 12766,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 4845,
+		"name" : "lockHolder",
+		"id" : 12768,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : 4852,
+		"name" : "newState",
+		"id" : 12804,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4856,
+		"name" : "amountToWithdraw",
+		"id" : 12824,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4860,
+		"name" : "userBalances",
+		"id" : 12852,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 4863,
+		"name" : "claimedBonus",
+		"id" : 12856,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 4863,
+		"name" : "rewardsForA",
+		"id" : 12860,
+		"isStateVariable" : true,
+		"type" : "Mapping"
+	}, {
+		"line" : 4866,
+		"name" : "amountToWithdraw",
+		"id" : 12866,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4865,
+		"name" : "recipient",
+		"id" : 12862,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4870,
+		"name" : "recipient",
+		"id" : 12889,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4886,
+		"name" : "amountToWithdraw",
+		"id" : 12922,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : 4885,
+		"name" : "recipient",
+		"id" : 12918,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : -1,
+		"name" : "recipient",
+		"id" : 12945,
+		"isStateVariable" : false,
+		"type" : "None"
+	}, {
+		"line" : -1,
+		"name" : "payees",
+		"id" : 12980,
+		"isStateVariable" : true,
+		"type" : "ArrayTypeName"
+	}, {
+		"line" : -1,
+		"name" : "nextPayeeIndex",
+		"id" : 12982,
+		"isStateVariable" : true,
+		"type" : "None"
+	}, {
+		"line" : -1,
+		"name" : "i",
+		"id" : 12986,
+		"isStateVariable" : false,
+		"type" : "None"
+	} ]
+}

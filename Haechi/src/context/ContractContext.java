@@ -14,23 +14,22 @@ public class ContractContext{
 	}
 	
 	@SuppressWarnings("unchecked")
-	public JSONArray getAllContractINFO() {
+	public JSONArray getAllContractInfo() {
 
 		Position position = new Position();
-		ContractContext contractContext = new ContractContext();
-		List<ContractDefinition> allContractDefinition = contractContext.getAllContract();
+		List<ContractDefinition> allContractDefinition = getAllContract();
 		
 		JSONArray contractArray;
-		JSONObject contractINFO = new JSONObject();
+		JSONObject contractInfo = new JSONObject();
 		
 		contractArray = new JSONArray();
 		for(ContractDefinition contractDefinition : allContractDefinition) {
-			contractINFO = new JSONObject();
-			contractINFO.put("id", contractDefinition.getId());
-			contractINFO.put("name", contractDefinition.getName());
-			contractINFO.put("kind", contractDefinition.getContractKind());
-			contractINFO.put("line", position.getLineNumber(contractDefinition.getCharacterCount()));
-			contractArray.add(contractINFO);
+			contractInfo = new JSONObject();
+			contractInfo.put("id", contractDefinition.getId());
+			contractInfo.put("name", contractDefinition.getName());
+			contractInfo.put("kind", contractDefinition.getContractKind());
+			contractInfo.put("line", position.getLineNumber(contractDefinition.getCharacterCount()));
+			contractArray.add(contractInfo);
 		}
 		
 		return contractArray;
